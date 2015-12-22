@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-02 15:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: handlers/custom.py:12
+msgid "intro_msg"
+msgstr ""
+
+#: handlers/custom.py:33
+msgid "help_cmd_reply"
+msgstr ""
+
+#: handlers/i18n.py:46
+msgid "Language settings updated"
+msgstr ""
+
+#: handlers/vk.py:108
+#, python-format
+msgid ""
+"Oops! Looks like your VK authorization is lost. Please, authorize me again "
+"via the link %s"
+msgstr ""
+
+#: handlers/vk.py:119 handlers/vk.py:122
+msgid "Oops, something went wrong. Please try again later."
+msgstr ""
+
+#: handlers/vk.py:129
+msgid "unknown_user_in_chat_msg"
+msgstr ""
+
+#: handlers/vk.py:133
+#, python-format
+msgid "Auth via %s"
+msgstr ""
+
+#: handlers/vk.py:165
+msgid "I found nothing"
+msgstr ""
+
+#: handlers/vk.py:233
+#, python-format
+msgid "What song do you want to get? Send me a number from 1 to %d.\n"
+msgstr ""
+
+#: handlers/vk.py:234 handlers/vk.py:247 handlers/vk.py:257
+msgid "Use /prev or /next to navigate"
+msgstr ""
+
+#: handlers/vk.py:241
+msgid "Wall"
+msgstr ""
+
+#: handlers/vk.py:242
+msgid "Audio"
+msgstr ""
+
+#: handlers/vk.py:243
+msgid "Albums"
+msgstr ""
+
+#: handlers/vk.py:288
+msgid ""
+"To access this feature you need to authorize me in VK via /start command"
+msgstr ""
+
+#: handlers/vk.py:316
+msgid ""
+"What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+msgstr ""
+
+#: handlers/vk.py:318
+msgid ""
+"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+msgstr ""
+
+#: handlers/vk.py:436
+#, python-format
+msgid ""
+"Oops! You need to give me access to your friends. Please, authorize me again "
+"via the link %s"
+msgstr ""
+
+#: handlers/vk.py:452
+msgid "You need to search for something before"
+msgstr ""
+
+#: handlers/vk.py:578
+msgid "Song is too big"
+msgstr ""
+
+#: handlers/vk.py:618 handlers/vk.py:777
+#, python-format
+msgid "Choose a song number from 1 to %d"
+msgstr ""
+
+#: handlers/vk.py:636
+msgid "Song is removed by copyright owners"
+msgstr ""
+
+#: handlers/vk.py:660
+msgid "Download something before!"
+msgstr ""
+
+#: handlers/vk.py:753
+msgid "No lyrics found"
+msgstr ""
