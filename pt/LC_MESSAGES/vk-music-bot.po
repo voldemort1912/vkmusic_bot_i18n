@@ -48,7 +48,7 @@ msgstr ""
 "\n"
 "📖 Letras\n"
 "/lyrics /text /l — envia a letra da última música baixada\n"
-"/lyrics /text /l [1-9] — envia a letra de uma música da lista de busca (músicas que contém letras estão marcadas com um"
+"/lyrics /text /l [1-9] — envia a letra de uma música da lista de busca (músicas que contenham letras estão marcadas com um"
 " 📖)\n"
 "\n"
 "🌎 Idiomas\n"
@@ -56,11 +56,11 @@ msgstr ""
 "\n"
 "⏬ Download em massa\n"
 "/getall — baixar todas as músicas da lista de busca\n"
-"Ao baixar várias músicas de uma lista, você pode determinar a quantidade de itens que será baixada, "
+"Quando quiser várias músicas de uma lista, você pode determinar a quantidade de itens que serão baixados, "
 "(ex., «1-9», «1,4,5» ou «1,3,6-9»). O mesmo se aplica "
 "para comandos (ex., /1,4,6-9)\n"
 "\n"
-"⭐️ Se você gostou desse bot, não existe em nos dar 5 estrelas na bot-store: https://"
+"⭐️ Se você gostou desse bot, não exite em nos dar 5 estrelas na bot-store: https://"
 "telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
 "Canal oficial de notícias: @vkmusic_bot_news\n"
@@ -89,7 +89,7 @@ msgstr "Oops, alguma coisa errada aconteceu. Tente novamente mais tarde."
 msgid "unknown_user_in_chat_msg"
 msgstr ""
 "Olá! Parece que ainda não conheço você! 😳\n"
-"Envie-me uma mensagem no chat com o comando /start, que irei guiar você!"
+"Envie-me uma mensagem no chat com o comando /start, que serei seu guia!"
 
 #: handlers/vk.py:133
 #, python-format
@@ -106,7 +106,7 @@ msgstr "Não encontrei nada 😔"
 #: handlers/vk.py:233
 #, python-format
 msgid "What song do you want to get? Send me a number from 1 to %d.\n"
-msgstr "Qual música você quer? Envie-me um número de 1 a %d. \n"
+msgstr "Qual música você deseja baixar? Envie-me um número de 1 a %d. \n"
 
 #: handlers/vk.py:234 handlers/vk.py:247 handlers/vk.py:257
 msgid "Use /prev or /next to navigate"
@@ -139,7 +139,7 @@ msgstr ""
 msgid ""
 "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 msgstr ""
-"Qual música você está procurando? Por exemplo «The Spirit Carries On» or «Cabeça de Gelo»"
+"Qual música você está procurando? Por exemplo «The Spirit Carries On» ou «Cabeça de Gelo»"
 
 #: handlers/vk.py:436
 #, python-format
