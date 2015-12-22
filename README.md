@@ -11,3 +11,5 @@ Do not hesitate to message me [@igonzo](https://telegram.me/igonzo) in Telegram 
 5. Do not translate commands (e.g. `/save`, `/my`, etc) — let them be in English
 6. Don't give a fuck about all these **DO NOT**'s above — never mind if you missed them and fucked up something. Send me a pull request anyway, I will fix all the mess for you!
 7. If you don't see a file for you language, feel free to copy `en/` dir to whatever language you want to add
+
+You can help yourself with a special software to edit .po files — https://poedit.net/
