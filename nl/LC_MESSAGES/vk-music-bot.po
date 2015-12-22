@@ -8,69 +8,71 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-02 15:51+0300\n"
-"PO-Revision-Date: 2015-12-02 15:56+0300\n"
-"Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
-"Language-Team: English\n"
-"Language: en_US\n"
+"PO-Revision-Date: 2015-12-23 00:00+0100\n"
+"Last-Translator: Robin van der Vliet <info@robinvandervliet.com>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: handlers/custom.py:12
 msgid "intro_msg"
 msgstr ""
-"Just send me an artist and/or a song name and I will find music for you!\n"
-"/song — search by song name\n"
-"/artist — search for artist name"
+"Stuur me de naam van een artiest en/of nummer en ik zal muziek voor je "
+"zoeken!\n"
+"/song — zoeken op naam van het nummer\n"
+"/artist — zoeken op naam van de artiest"
 
 #: handlers/custom.py:33
 msgid "help_cmd_reply"
 msgstr ""
-"🔥 Commands\n"
-"Just send me an artist and/or a song name and I will find music for you!\n"
-"/song — search by song name (useful for group chats)\n"
-"/artist — search for artist name\n"
-"/randomglobal /rg — get a random song\n"
-"/my — access your vk audio\n"
-"/friends — access your vk friends\n"
-"/groups — access your vk groups\n"
-"/add — add the last downloaded song to your vk audio\n"
+"🔥 Opdrachten\n"
+"Stuur me de naam van een artiest en/of nummer en ik zal muziek voor je "
+"zoeken!\n"
+"/song — zoeken op naam van het nummer (handig voor groepchats)\n"
+"/artist — zoeken op naam de artiest\n"
+"/randomglobal /rg — vraag een willekeurig nummer op\n"
+"/my — toegang tot je VK-audio\n"
+"/friends — toegang tot je VK-vrienden\n"
+"/groups — toegang tot je VK-groepen\n"
+"/add — het laatst gedownloade nummer toevoegen aan je VK-audio\n"
 "\n"
-"☝️ To access personalized vk.com features you need to authorize me in VK via /"
-"start command\n"
+"☝️ Om toegang te krijgen tot gepersonaliseerde vk.com-functies moet je me "
+"eerst autoriseren op VK met het de opdracht /start\n"
 "\n"
-"💕 Favorites\n"
-"/save /like — add the last downloaded song to favorites\n"
-"/remove /del — remove the last song from favorites\n"
-"/random /r — random song from your favs\n"
+"💕 Favorieten\n"
+"/save /like — voeg het laatst gedownloade nummer toe aan je favorieten\n"
+"/remove /del — verwijder het laatste nummer uit je favorieten\n"
+"/random /r — willekeurig nummer uit je favorieten\n"
 "\n"
-"📖 Lyrics\n"
-"/lyrics /text /l — get lyrics for the last downloaded song\n"
-"/lyrics /text /l [1-9] — get lyrics for the song from the search list (songs "
-"with lyrics are marked with 📖)\n"
+"📖 Liedteksten\n"
+"/lyrics /text /l — vraag liedteksten op van je laatst gedownloade nummer\n"
+"/lyrics /text /l [1-9] — vraag liedteksten op van het nummer uit je "
+"zoekresultaten (nummers met liedteksten zijn gemarkeerd met 📖)\n"
 "\n"
-"🌎 Languages\n"
+"🌎 Talen\n"
 "/rus — 🇷🇺, /eng — 🇬🇧\n"
 "\n"
-"⏬ Batch downloads\n"
-"/getall — download all songs from search results\n"
-"To download many songs at one time you can use ranges when specifying number "
-"to download (e.g., «1-9» or «1,4,5», «1,3,6-9»). The same applies for "
-"commands (e.g., /1,4,6-9)\n"
+"⏬ Bulkdownloads\n"
+"/getall — download alle nummers van de zoekresultaten\n"
+"Om veel nummers tegelijkertijd te downloaden kun je een bereik opgeven van "
+"het aantal nummers dat je wilt downloaden (bijvoorbeeld: \"1-9\", \"1,4,5\" "
+"of \"1,3,6-9\"). Dit geldt ook voor opdrachten (bijvoorbeeld: /1,4,6-9)\n"
 "\n"
-"⭐️ If you like this bot, please rate it 5 stars in the bot-store: https://"
-"telegram.me/storebot?start=vkmusic_bot\n"
+"⭐️ Als je deze bot leuk vindt, beoordeel hem dan met 5 sterren in de Bot "
+"Store: https://telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
-"Official news channel: @vkmusic_bot_news\n"
-"Contact information: @igonzo\n"
+"Officieel nieuwskanaal: @vkmusic_bot_news\n"
+"Contactinformatie: @igonzo\n"
 "\n"
-"Support and donations: http://vkmusicbot.tk/"
+"Ondersteuning en donaties: http://vkmusicbot.tk/"
 
 #: handlers/i18n.py:46
 msgid "Language settings updated"
-msgstr "👌🇬🇧 Language settings updated"
+msgstr "👌🇳🇱 Taalinstelling bijgewerkt"
 
 #: handlers/vk.py:108
 #, python-format
@@ -78,68 +80,69 @@ msgid ""
 "Oops! Looks like your VK authorization is lost. Please, authorize me again "
 "via the link %s"
 msgstr ""
-"Oops! Looks like your VK authorization is lost. Please, authorize me again "
-"via the link %s"
+"Oeps! Het lijkt erop dat je VK-autorisatie niet meer werkt. Autoriseer me "
+"opnieuw met de link %s"
 
 #: handlers/vk.py:119 handlers/vk.py:122
 msgid "Oops, something went wrong. Please try again later."
-msgstr "Oops, something went wrong. Please try again later."
+msgstr "Oeps, er is iets misgegaan. Probeer het later nog eens."
 
 #: handlers/vk.py:129
 msgid "unknown_user_in_chat_msg"
 msgstr ""
-"Hi! Looks like we didn’t meet yet😳\n"
-"Send me a private message /start, and I will guide you what to do next"
+"Hoi! Het lijkt erop dat we elkaar nog niet ontmoet hebben 😳\n"
+"Stuur me /start in een privébericht en ik zal je verder begeleiden"
 
 #: handlers/vk.py:133
 #, python-format
 msgid "Auth via %s"
 msgstr ""
-"Hi! To access all features you need to authorize me in your VK, follow the "
-"link to do it %s\n"
-"Just send me a song name to find it!"
+"Hoi! Om toegang te krijgen tot alle functies moet je me eerst autoriseren op "
+"VK, volg de link om dit te doen %s\n"
+"Stuur me de naam van een nummer en ik zal het voor je zoeken!"
 
 #: handlers/vk.py:165
 msgid "I found nothing"
-msgstr "I found nothing 😔"
+msgstr "Ik heb niks gevonden 😔"
 
 #: handlers/vk.py:233
 #, python-format
 msgid "What song do you want to get? Send me a number from 1 to %d.\n"
-msgstr ""
+msgstr "Welk nummer wil je ophalen? Stuur me een nummer tussen de 1 en de %d.\n"
 
 #: handlers/vk.py:234 handlers/vk.py:247 handlers/vk.py:257
 msgid "Use /prev or /next to navigate"
-msgstr ""
+msgstr "Gebruik /prev of /next om te navigeren"
 
 #: handlers/vk.py:241
 msgid "Wall"
-msgstr ""
+msgstr "Muur"
 
 #: handlers/vk.py:242
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: handlers/vk.py:243
 msgid "Albums"
-msgstr ""
+msgstr "Albums"
 
 #: handlers/vk.py:288
 msgid "To access this feature you need to authorize me in VK via /start command"
 msgstr ""
-"To access this feature you need to authorize me in VK via /start command"
+"Om toegang te krijgen tot deze functie moet je me eerst autoriseren op VK met "
+"de opdracht /start"
 
 #: handlers/vk.py:316
 msgid ""
 "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
 msgstr ""
-"What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+"Naar welke artiest zoek je? Bijvoorbeeld \"Lera Lynn\" of \"Wiz Khalifa\""
 
 #: handlers/vk.py:318
 msgid ""
 "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 msgstr ""
-"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+"Naar welk nummer zoek je? Bijvoorbeeld \"Get Lucky\" of \"Take Me To Church\""
 
 #: handlers/vk.py:436
 #, python-format
@@ -147,28 +150,30 @@ msgid ""
 "Oops! You need to give me access to your friends. Please, authorize me again "
 "via the link %s"
 msgstr ""
+"Oeps! Je moet me toegang geven tot je vrienden. Autoriseer me opnieuw met de "
+"link %s"
 
 #: handlers/vk.py:452
 msgid "You need to search for something before"
-msgstr "You need to search for something before 🐸"
+msgstr "Je moet eerst naar iets zoeken 🐸"
 
 #: handlers/vk.py:578
 msgid "Song is too big"
-msgstr "Song is too big 😔"
+msgstr "Nummer is te groot 😔"
 
 #: handlers/vk.py:618 handlers/vk.py:777
 #, python-format
 msgid "Choose a song number from 1 to %d"
-msgstr "Choose a song number from 1 to %d"
+msgstr "Kies een nummer tussen de 1 en de %d"
 
 #: handlers/vk.py:636
 msgid "Song is removed by copyright owners"
-msgstr "⛔️ Song is removed by copyright owners"
+msgstr "⛔️ Nummer is verwijderd door auteursrechthebbenden"
 
 #: handlers/vk.py:660
 msgid "Download something before!"
-msgstr "Download something before!"
+msgstr "Je moet eerst iets downloaden!"
 
 #: handlers/vk.py:753
 msgid "No lyrics found"
-msgstr "No lyrics found for this song 😔"
+msgstr "Geen liedtekst gevonden voor dit nummer 😔"
