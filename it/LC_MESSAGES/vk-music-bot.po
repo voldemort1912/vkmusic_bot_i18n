@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-02 15:51+0300\n"
-"PO-Revision-Date: 2015-12-02 15:56+0300\n"
+"POT-Creation-Date: 2015-12-23 13:26+0300\n"
+"PO-Revision-Date: 2015-12-23 13:30+0300\n"
 "Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
 "Language-Team: English\n"
 "Language: en_US\n"
@@ -52,7 +52,7 @@ msgstr ""
 "with lyrics are marked with 📖)\n"
 "\n"
 "🌎 Languages\n"
-"/rus — 🇷🇺, /eng — 🇬🇧\n"
+"/setlang — change language\n"
 "\n"
 "⏬ Batch downloads\n"
 "/getall — download all songs from search results\n"
@@ -68,11 +68,19 @@ msgstr ""
 "\n"
 "Support and donations: http://vkmusicbot.tk/"
 
-#: handlers/i18n.py:46
+#: handlers/i18n.py:92
 msgid "Language settings updated"
 msgstr "👌🇬🇧 Language settings updated"
 
-#: handlers/vk.py:108
+#: handlers/i18n.py:115
+msgid "To select new language, use the following commands"
+msgstr ""
+
+#: handlers/i18n.py:125
+msgid "Please, select new language"
+msgstr ""
+
+#: handlers/vk.py:109
 #, python-format
 msgid ""
 "Oops! Looks like your VK authorization is lost. Please, authorize me again "
@@ -81,17 +89,17 @@ msgstr ""
 "Oops! Looks like your VK authorization is lost. Please, authorize me again "
 "via the link %s"
 
-#: handlers/vk.py:119 handlers/vk.py:122
+#: handlers/vk.py:120 handlers/vk.py:123
 msgid "Oops, something went wrong. Please try again later."
 msgstr "Oops, something went wrong. Please try again later."
 
-#: handlers/vk.py:129
+#: handlers/vk.py:130
 msgid "unknown_user_in_chat_msg"
 msgstr ""
 "Hi! Looks like we didn’t meet yet😳\n"
 "Send me a private message /start, and I will guide you what to do next"
 
-#: handlers/vk.py:133
+#: handlers/vk.py:134
 #, python-format
 msgid "Auth via %s"
 msgstr ""
@@ -99,76 +107,71 @@ msgstr ""
 "link to do it %s\n"
 "Just send me a song name to find it!"
 
-#: handlers/vk.py:165
+#: handlers/vk.py:166
 msgid "I found nothing"
 msgstr "I found nothing 😔"
 
-#: handlers/vk.py:233
-#, python-format
-msgid "What song do you want to get? Send me a number from 1 to %d.\n"
-msgstr ""
-
-#: handlers/vk.py:234 handlers/vk.py:247 handlers/vk.py:257
-msgid "Use /prev or /next to navigate"
-msgstr ""
-
-#: handlers/vk.py:241
+#: handlers/vk.py:270
 msgid "Wall"
 msgstr ""
 
-#: handlers/vk.py:242
+#: handlers/vk.py:271
 msgid "Audio"
 msgstr ""
 
-#: handlers/vk.py:243
+#: handlers/vk.py:272
 msgid "Albums"
 msgstr ""
 
-#: handlers/vk.py:288
+#: handlers/vk.py:276 handlers/vk.py:286
+msgid "Use /prev or /next to navigate"
+msgstr ""
+
+#: handlers/vk.py:317
 msgid "To access this feature you need to authorize me in VK via /start command"
 msgstr ""
 "To access this feature you need to authorize me in VK via /start command"
 
-#: handlers/vk.py:316
+#: handlers/vk.py:345
 msgid ""
 "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
 msgstr ""
 "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
 
-#: handlers/vk.py:318
+#: handlers/vk.py:347
 msgid ""
 "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 msgstr ""
 "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 
-#: handlers/vk.py:436
+#: handlers/vk.py:465
 #, python-format
 msgid ""
 "Oops! You need to give me access to your friends. Please, authorize me again "
 "via the link %s"
 msgstr ""
 
-#: handlers/vk.py:452
+#: handlers/vk.py:481
 msgid "You need to search for something before"
 msgstr "You need to search for something before 🐸"
 
-#: handlers/vk.py:578
+#: handlers/vk.py:607
 msgid "Song is too big"
 msgstr "Song is too big 😔"
 
-#: handlers/vk.py:618 handlers/vk.py:777
+#: handlers/vk.py:647 handlers/vk.py:806
 #, python-format
 msgid "Choose a song number from 1 to %d"
 msgstr "Choose a song number from 1 to %d"
 
-#: handlers/vk.py:636
+#: handlers/vk.py:665
 msgid "Song is removed by copyright owners"
 msgstr "⛔️ Song is removed by copyright owners"
 
-#: handlers/vk.py:660
+#: handlers/vk.py:689
 msgid "Download something before!"
 msgstr "Download something before!"
 
-#: handlers/vk.py:753
+#: handlers/vk.py:782
 msgid "No lyrics found"
 msgstr "No lyrics found for this song 😔"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-02 15:57+0300\n"
-"PO-Revision-Date: 2015-12-02 15:57+0300\n"
+"POT-Creation-Date: 2015-12-23 13:33+0300\n"
+"PO-Revision-Date: 2015-12-23 13:33+0300\n"
 "Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -57,7 +57,7 @@ msgstr ""
 "текстами отмечены 📖)\n"
 "\n"
 "🌎 Языки\n"
-"/rus — 🇷🇺, /eng — 🇬🇧\n"
+"/setlang — изменить язык\n"
 "\n"
 "⏬ Мультизагрузки\n"
 "/getall — скачать все найденные песни\n"
@@ -72,11 +72,19 @@ msgstr ""
 "Контактная информация: @igonzo\n"
 "Поддержать проект можно тут: http://vkmusicbot.tk/"
 
-#: handlers/i18n.py:46
+#: handlers/i18n.py:92
 msgid "Language settings updated"
 msgstr "👌🇷🇺 Настройки языка обновлены"
 
-#: handlers/vk.py:108
+#: handlers/i18n.py:115
+msgid "To select new language, use the following commands"
+msgstr "Чтобы изменить язык, используй следующие команды"
+
+#: handlers/i18n.py:125
+msgid "Please, select new language"
+msgstr "Выбери новый язык"
+
+#: handlers/vk.py:109
 #, python-format
 msgid ""
 "Oops! Looks like your VK authorization is lost. Please, authorize me again "
@@ -85,16 +93,16 @@ msgstr ""
 "Ой, похоже, твоя авторизация ВК устарела. Пожалуйста, авторизуйся заново по "
 "ссылке %s"
 
-#: handlers/vk.py:119 handlers/vk.py:122
+#: handlers/vk.py:120 handlers/vk.py:123
 msgid "Oops, something went wrong. Please try again later."
 msgstr "Ой, что-то пошло не так. Повтори запрос попозже."
 
-#: handlers/vk.py:129
+#: handlers/vk.py:130
 msgid "unknown_user_in_chat_msg"
 msgstr ""
 "Привет! Напиши мне личное сообщение /start, и я скажу, что делать дальше"
 
-#: handlers/vk.py:133
+#: handlers/vk.py:134
 #, python-format
 msgid "Auth via %s"
 msgstr ""
@@ -104,48 +112,43 @@ msgstr ""
 "Just send me a song name to find it! Use /eng command if you want me to "
 "speak English."
 
-#: handlers/vk.py:165
+#: handlers/vk.py:166
 msgid "I found nothing"
 msgstr "Ничего не нашлось 😔"
 
-#: handlers/vk.py:233
-#, python-format
-msgid "What song do you want to get? Send me a number from 1 to %d.\n"
-msgstr "Какую песню хочешь послушать? Отправь номер от 1 до %d.\n"
-
-#: handlers/vk.py:234 handlers/vk.py:247 handlers/vk.py:257
-msgid "Use /prev or /next to navigate"
-msgstr "Используй /prev или /next для навигации"
-
-#: handlers/vk.py:241
+#: handlers/vk.py:270
 msgid "Wall"
 msgstr "Стена"
 
-#: handlers/vk.py:242
+#: handlers/vk.py:271
 msgid "Audio"
 msgstr "Аудио"
 
-#: handlers/vk.py:243
+#: handlers/vk.py:272
 msgid "Albums"
 msgstr "Альбомы"
 
-#: handlers/vk.py:288
+#: handlers/vk.py:276 handlers/vk.py:286
+msgid "Use /prev or /next to navigate"
+msgstr "Используй /prev или /next для навигации"
+
+#: handlers/vk.py:317
 msgid ""
 "To access this feature you need to authorize me in VK via /start command"
 msgstr ""
 "Для доступа к этой функции нужно авторизоваться ВК через команду /start"
 
-#: handlers/vk.py:316
+#: handlers/vk.py:345
 msgid ""
 "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
 msgstr "Чьи песни ищем? Например, «Lera Lynn» или «Петрик-Путяха»"
 
-#: handlers/vk.py:318
+#: handlers/vk.py:347
 msgid ""
 "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 msgstr "Какую песню ищем? Например, «Get Lucky» или «Группа крови»"
 
-#: handlers/vk.py:436
+#: handlers/vk.py:465
 #, python-format
 msgid ""
 "Oops! You need to give me access to your friends. Please, authorize me again "
@@ -154,27 +157,30 @@ msgstr ""
 "Ой! Мне нужен доступ к твоим друзьям, пройди по этой ссылке и авторизуй меня "
 "снова: %s"
 
-#: handlers/vk.py:452
+#: handlers/vk.py:481
 msgid "You need to search for something before"
 msgstr "Для начала поищи что-нибудь 🐸"
 
-#: handlers/vk.py:578
+#: handlers/vk.py:607
 msgid "Song is too big"
 msgstr "Песня слишком большая 😔"
 
-#: handlers/vk.py:618 handlers/vk.py:777
+#: handlers/vk.py:647 handlers/vk.py:806
 #, python-format
 msgid "Choose a song number from 1 to %d"
 msgstr "Выбери номер песни от 1 до %d"
 
-#: handlers/vk.py:636
+#: handlers/vk.py:665
 msgid "Song is removed by copyright owners"
 msgstr "⛔️ Аудиозапись удалена по запросу правообладателей"
 
-#: handlers/vk.py:660
+#: handlers/vk.py:689
 msgid "Download something before!"
 msgstr "Сначала скачай какую-нибудь песню!"
 
-#: handlers/vk.py:753
+#: handlers/vk.py:782
 msgid "No lyrics found"
 msgstr "Текст для этой песни не найден 😔"
+
+#~ msgid "What song do you want to get? Send me a number from 1 to %d.\n"
+#~ msgstr "Какую песню хочешь послушать? Отправь номер от 1 до %d.\n"
