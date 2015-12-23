@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-23 13:27+0300\n"
-"PO-Revision-Date: 2015-12-23 13:29+0300\n"
+"PO-Revision-Date: 2015-12-23 12:43+0100\n"
 "Last-Translator: Robin van der Vliet <info@robinvandervliet.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: handlers/custom.py:12
 msgid "intro_msg"
@@ -76,11 +76,11 @@ msgstr "👌🇳🇱 Taalinstelling bijgewerkt"
 
 #: handlers/i18n.py:115
 msgid "To select new language, use the following commands"
-msgstr ""
+msgstr "Gebruik de volgende opdrachten om een nieuwe taal te selecteren"
 
 #: handlers/i18n.py:125
 msgid "Please, select new language"
-msgstr ""
+msgstr "Selecteer een nieuwe taal"
 
 #: handlers/vk.py:109
 #, python-format
