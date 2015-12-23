@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-02 15:51+0300\n"
-"PO-Revision-Date: 2015-12-02 15:56+0300\n"
+"PO-Revision-Date: 2015-12-23 13:36+0300\n"
 "Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
 "Language-Team: English\n"
 "Language: en_US\n"
@@ -150,7 +150,7 @@ msgstr ""
 
 #: handlers/vk.py:452
 msgid "You need to search for something before"
-msgstr "You need to search for something before 🐸"
+msgstr "You need to search for something first 🐸"
 
 #: handlers/vk.py:578
 msgid "Song is too big"
@@ -167,7 +167,7 @@ msgstr "⛔️ Song is removed by copyright owners"
 
 #: handlers/vk.py:660
 msgid "Download something before!"
-msgstr "Download something before!"
+msgstr "Download something first!"
 
 #: handlers/vk.py:753
 msgid "No lyrics found"
