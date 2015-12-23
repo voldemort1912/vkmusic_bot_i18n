@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-02 15:51+0300\n"
-"PO-Revision-Date: 2015-12-22 18:47+0300\n"
+"POT-Creation-Date: 2015-12-23 13:50+0300\n"
+"PO-Revision-Date: 2015-12-23 13:53+0300\n"
 "Last-Translator: Lucas Vasconcelos <lucaslg26@yahoo.com.br>\n"
 "Language-Team: Portuguese\n"
 "Language: pt_BR\n"
@@ -21,7 +21,8 @@ msgstr ""
 #: handlers/custom.py:12
 msgid "intro_msg"
 msgstr ""
-"Envie-me o nome da música e/ou o nome do artista, que irei encontrar para você!\n"
+"Envie-me o nome da música e/ou o nome do artista, que irei encontrar para "
+"você!\n"
 "/song — procurar pelo nome da música\n"
 "/artist — procurar pelo nome do artista"
 
@@ -29,7 +30,8 @@ msgstr ""
 msgid "help_cmd_reply"
 msgstr ""
 "🔥 Commands\n"
-"Envie-me o nome da música e/ou o nome do artista, que irei encontrar para você!\n"
+"Envie-me o nome da música e/ou o nome do artista, que irei encontrar para "
+"você!\n"
 "/song — procurar pelo nome da música (útil em grupos)\n"
 "/artist — procurar pelo nome do artista\n"
 "/randomglobal /rg — enviar uma música randômica\n"
@@ -38,8 +40,8 @@ msgstr ""
 "/groups — ver seus grupos do vk\n"
 "/add — adicionar a última música baixada na sua lista de músicas do vk\n"
 "\n"
-"☝️Para ter recursos personalizados, você precisa autorizar sua conta do VK usando o comando /"
-"start \n"
+"☝️Para ter recursos personalizados, você precisa autorizar sua conta do VK "
+"usando o comando /start \n"
 "\n"
 "💕 Favoritos\n"
 "/save /like — adiciona a última música baixada a sua lista de favoritos\n"
@@ -48,127 +50,139 @@ msgstr ""
 "\n"
 "📖 Letras\n"
 "/lyrics /text /l — envia a letra da última música baixada\n"
-"/lyrics /text /l [1-9] — envia a letra de uma música da lista de busca (músicas que contenham letras estão marcadas com um"
-" 📖)\n"
+"/lyrics /text /l [1-9] — envia a letra de uma música da lista de busca "
+"(músicas que contenham letras estão marcadas com um 📖)\n"
 "\n"
 "🌎 Idiomas\n"
-"/rus — 🇷🇺, /pt, /eng — 🇬🇧\n"
+"/setlang — mudar idioma\n"
 "\n"
 "⏬ Download em massa\n"
 "/getall — baixar todas as músicas da lista de busca\n"
-"Quando quiser várias músicas de uma lista, você pode determinar a quantidade de itens que serão baixados, "
-"(ex., «1-9», «1,4,5» ou «1,3,6-9»). O mesmo se aplica "
-"para comandos (ex., /1,4,6-9)\n"
+"Quando quiser várias músicas de uma lista, você pode determinar a quantidade "
+"de itens que serão baixados, (ex., «1-9», «1,4,5» ou «1,3,6-9»). O mesmo se "
+"aplica para comandos (ex., /1,4,6-9)\n"
 "\n"
-"⭐️ Se você gostou desse bot, não exite em nos dar 5 estrelas na bot-store: https://"
-"telegram.me/storebot?start=vkmusic_bot\n"
+"⭐️ Se você gostou desse bot, não exite em nos dar 5 estrelas na bot-store: "
+"https://telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
 "Canal oficial de notícias: @vkmusic_bot_news\n"
 "Contato: @igonzo\n"
 "\n"
 "Suporte e doações: http://vkmusicbot.tk/"
 
-#: handlers/i18n.py:46
+#: handlers/i18n.py:92
 msgid "Language settings updated"
-msgstr "👌🇬🇧 Configurações de idiomas foram atualizadas"
+msgstr "👌Configurações de idiomas foram atualizadas"
 
-#: handlers/vk.py:108msg
+#: handlers/i18n.py:115
+msgid "To select new language, use the following commands"
+msgstr ""
+
+#: handlers/i18n.py:125
+msgid "Please, select new language"
+msgstr ""
+
+#: handlers/vk.py:109
 #, python-format
 msgid ""
 "Oops! Looks like your VK authorization is lost. Please, authorize me again "
 "via the link %s"
 msgstr ""
-"Oops! Parece que sua autorização do VK foi perdida. Por favor, autorize novamente "
-"pelo link %s"
+"Oops! Parece que sua autorização do VK foi perdida. Por favor, autorize "
+"novamente pelo link %s"
 
-#: handlers/vk.py:119 handlers/vk.py:122
+#: handlers/vk.py:120 handlers/vk.py:123
 msgid "Oops, something went wrong. Please try again later."
 msgstr "Oops, alguma coisa errada aconteceu. Tente novamente mais tarde."
 
-#: handlers/vk.py:129
+#: handlers/vk.py:130
 msgid "unknown_user_in_chat_msg"
 msgstr ""
 "Olá! Parece que ainda não conheço você! 😳\n"
 "Envie-me uma mensagem no chat com o comando /start, que serei seu guia!"
 
-#: handlers/vk.py:133
+#: handlers/vk.py:134
 #, python-format
 msgid "Auth via %s"
 msgstr ""
-"Hi! Para acessar todos os recursos você precisa me autorizar no VK, use o link a seguir "
-"para completar o processo: %s\n"
+"Hi! Para acessar todos os recursos você precisa me autorizar no VK, use o "
+"link a seguir para completar o processo: %s\n"
 "Envie-me o nome da música para eu encontrar!"
 
-#: handlers/vk.py:165
+#: handlers/vk.py:166
 msgid "I found nothing"
 msgstr "Não encontrei nada 😔"
 
-#: handlers/vk.py:233
-#, python-format
-msgid "What song do you want to get? Send me a number from 1 to %d.\n"
-msgstr "Qual música você deseja baixar? Envie-me um número de 1 a %d. \n"
-
-#: handlers/vk.py:234 handlers/vk.py:247 handlers/vk.py:257
-msgid "Use /prev or /next to navigate"
-msgstr "Use os comandos /prev ou /next para navegar entre os resultados."
-
-#: handlers/vk.py:241
+#: handlers/vk.py:270
 msgid "Wall"
 msgstr ""
 
-#: handlers/vk.py:242
+#: handlers/vk.py:271
 msgid "Audio"
 msgstr ""
 
-#: handlers/vk.py:243
+#: handlers/vk.py:272
 msgid "Albums"
 msgstr "Álbuns"
 
-#: handlers/vk.py:288
-msgid "To access this feature you need to authorize me in VK via /start command"
-msgstr ""
-"Para usar esse recurso você precisa autorizar sua conta do VK usando o comando /start"
+#: handlers/vk.py:276 handlers/vk.py:286
+msgid "Use /prev or /next to navigate"
+msgstr "Use os comandos /prev ou /next para navegar entre os resultados."
 
-#: handlers/vk.py:316
+#: handlers/vk.py:317
+msgid ""
+"To access this feature you need to authorize me in VK via /start command"
+msgstr ""
+"Para usar esse recurso você precisa autorizar sua conta do VK usando o "
+"comando /start"
+
+#: handlers/vk.py:345
 msgid ""
 "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
 msgstr ""
-"Qual artista você está procurando? Por exemplo «Dream Theater» ou «Dj Cleiton Rasta»"
+"Qual artista você está procurando? Por exemplo «Dream Theater» ou «Dj "
+"Cleiton Rasta»"
 
-#: handlers/vk.py:318
+#: handlers/vk.py:347
 msgid ""
 "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 msgstr ""
-"Qual música você está procurando? Por exemplo «The Spirit Carries On» ou «Cabeça de Gelo»"
+"Qual música você está procurando? Por exemplo «The Spirit Carries On» ou "
+"«Cabeça de Gelo»"
 
-#: handlers/vk.py:436
+#: handlers/vk.py:465
 #, python-format
 msgid ""
-"Oops! Você precisa me dar acesso aos seus amigos. Por favor, me autorize novamente "
-"pelo link %s"
+"Oops! You need to give me access to your friends. Please, authorize me again "
+"via the link %s"
 msgstr ""
+"Oops! Você precisa me dar acesso aos seus amigos. Por favor, me autorize "
+"novamente pelo link %s"
 
-#: handlers/vk.py:452
+#: handlers/vk.py:481
 msgid "You need to search for something before"
 msgstr "Você precisa procurar por algo antes 🐸"
 
-#: handlers/vk.py:578
+#: handlers/vk.py:607
 msgid "Song is too big"
 msgstr "A música é muito grande 😔"
 
-#: handlers/vk.py:618 handlers/vk.py:777
+#: handlers/vk.py:647 handlers/vk.py:806
 #, python-format
 msgid "Choose a song number from 1 to %d"
 msgstr "Escolha uma música de 1 a %d"
 
-#: handlers/vk.py:636
+#: handlers/vk.py:665
 msgid "Song is removed by copyright owners"
 msgstr "⛔️ Essa música foi removida devido aos direitos autorais"
 
-#: handlers/vk.py:660
+#: handlers/vk.py:689
 msgid "Download something before!"
 msgstr "Baixe alguma coisa antes de executar este comando!"
 
-#: handlers/vk.py:753
+#: handlers/vk.py:782
 msgid "No lyrics found"
 msgstr "Não foram encontradas letras para essa música 😔"
+
+#~ msgid "What song do you want to get? Send me a number from 1 to %d.\n"
+#~ msgstr "Qual música você deseja baixar? Envie-me um número de 1 a %d. \n"
