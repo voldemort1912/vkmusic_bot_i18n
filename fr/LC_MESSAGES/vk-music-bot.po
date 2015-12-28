@@ -1,0 +1,181 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ilya Samartsev <ilya@ilyas-macbook-pro.local>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-23 13:57+0300\n"
+"PO-Revision-Date: 2015-12-28 15:51+0300\n"
+"Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
+"Language-Team: English\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: handlers/custom.py:12
+msgid "intro_msg"
+msgstr ""
+"Salut! Envoyez-moi un nom d'artiste et/ou un titre de morceau et je trouverai "
+"la musique pour vous!\n"
+"/song — rechercher par le titre de morceau\n"
+"/artist — rechercher par le nom d’artiste\n"
+"/setlang — Changer de langue"
+
+#: handlers/custom.py:33
+msgid "help_cmd_reply"
+msgstr ""
+"🔥 Commandes\n"
+"Salut! Envoyez-moi un nom d'artiste et/ou un titre de morceau et je trouverai "
+"la musique pour vous !\n"
+"/song — rechercher par le titre de morceau (utile pour les discussions de "
+"groupe)\n"
+"/artist — rechercher par le nom d’artiste\n"
+"/randomglobal /rg — choisir un morceau de manière aléatoire\n"
+"/my —  accéder à vos fichiers audio de vk\n"
+"/friends — accéder à vos amis de vk\n"
+"/groups — accéder à vos groupes de vk\n"
+"/add — ajouter le dernier morceau téléchargé à vos fichiers audio de vk\n"
+"\n"
+"☝️ Veuillez m'autoriser sur VK par la commande /start pour accéder aux "
+"fonctions personnalisées de vk.com\n"
+"\n"
+"💕 Favoris\n"
+"/save /like — ajouter le dernier morceau téléchargé aux favoris\n"
+"/remove /del — supprimer le dernier morceau des favoris\n"
+"/random /r — un morceau aléatoire de vos favoris\n"
+"\n"
+"📖 Paroles\n"
+"/lyrics /text /l — trouver les paroles pour le dernier morceau téléchargé\n"
+"/lyrics /text /l [1-9] — trouver les paroles pour le morceau dans la liste de "
+"recherche (morceaux avec des paroles sont marqués avec un 📖)\n"
+"\n"
+"🌎 Langues\n"
+"/setlang — Changer de langue\n"
+"\n"
+"⏬ Téléchargements par lots\n"
+"/getall — télécharger tous les morceaux dans la liste des résultats\n"
+"Pour télécharger de nombreux morceaux à la fois, vous pouvez saisir une "
+"tranche de numéros (ex. «1-9» ou «1,4,5», «1,3,6-9»). Il en est de même pour "
+"les commandes (ex. /1,4,6-9)\n"
+"\n"
+"⭐️ Si vous aimez ce bot, veuillez noter 5 étoiles dans le bot store : https://"
+"telegram.me/storebot?start=vkmusic_bot\n"
+"\n"
+"Chaîne d'information officiel : @vkmusic_bot_news\n"
+"Informations de contact : @igonzo\n"
+"\n"
+"Appui et dons : http://vkmusicbot.tk/"
+
+#: handlers/i18n.py:92
+msgid "Language settings updated"
+msgstr "👌🇫🇷 Les paramètres sont mis à jour"
+
+#: handlers/i18n.py:115
+msgid "To select new language, use the following commands"
+msgstr "Pour sélectionner une nouvelle langue, utiliser les commandes suivantes"
+
+#: handlers/i18n.py:125
+msgid "Please, select new language"
+msgstr "Veuillez selectionner la nouvelle langue"
+
+#: handlers/vk.py:109
+#, python-format
+msgid ""
+"Oops! Looks like your VK authorization is lost. Please, authorize me again via "
+"the link %s"
+msgstr ""
+"Oups! Il semble que vous avez perdu votre autorisation de VK. Autorisez-vous à "
+"nouveau en cliquant sur le lien %s"
+
+#: handlers/vk.py:120 handlers/vk.py:123
+msgid "Oops, something went wrong. Please try again later."
+msgstr "Oups, quelque chose a mal tourné. Veuillez réessayer plus tard."
+
+#: handlers/vk.py:130
+msgid "unknown_user_in_chat_msg"
+msgstr ""
+"Salut! Il semble que nous n'avons jamais rencontrés 😳\n"
+"Envoyez-moi un message privé /start et je vous guiderai"
+
+#: handlers/vk.py:134
+#, python-format
+msgid "Auth via %s"
+msgstr ""
+"Veuillez m’autoriser pour accéder à toutes les fonctions. Suivez le lien pour "
+"le faire %s"
+
+#: handlers/vk.py:166
+msgid "I found nothing"
+msgstr "Je n'ai rien trouvé 😔"
+
+#: handlers/vk.py:270
+msgid "Wall"
+msgstr "Mur"
+
+#: handlers/vk.py:271
+msgid "Audio"
+msgstr "Audio"
+
+#: handlers/vk.py:272
+msgid "Albums"
+msgstr "Albums"
+
+#: handlers/vk.py:276 handlers/vk.py:286
+msgid "Use /prev or /next to navigate"
+msgstr "Utilisez /prev ou /next pour naviguer"
+
+#: handlers/vk.py:317
+msgid "To access this feature you need to authorize me in VK via /start command"
+msgstr ""
+"Veuillez m’autoriser sur VK par la commande /start pour accéder à cette "
+"fonction"
+
+#: handlers/vk.py:345
+msgid "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+msgstr "Quel artiste cherchez-vous? Par exemple «Lera Lynn» ou «Wiz Khalifa»"
+
+#: handlers/vk.py:347
+msgid ""
+"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+msgstr ""
+"Quel morceau cherchez-vous? Par exemple «Get Lucky» ou «Take Me To Church»"
+
+#: handlers/vk.py:465
+#, python-format
+msgid ""
+"Oops! You need to give me access to your friends. Please, authorize me again "
+"via the link %s"
+msgstr ""
+"Oups! Vous devez me permettre l'accès à vos amis. Autorisez-vous à nouveau en "
+"cliquant sur le lien %s"
+
+#: handlers/vk.py:481
+msgid "You need to search for something before"
+msgstr "Vous devez d'abord effectuer la recherche 🐸"
+
+#: handlers/vk.py:607
+msgid "Song is too big"
+msgstr "Le morceau est trop grand 😔"
+
+#: handlers/vk.py:647 handlers/vk.py:806
+#, python-format
+msgid "Choose a song number from 1 to %d"
+msgstr "Choisissez un numéro de morceau entre 1 et %d"
+
+#: handlers/vk.py:665
+msgid "Song is removed by copyright owners"
+msgstr "⛔️ Ce morceau a été retiré à la demande du titulaire des droits"
+
+#: handlers/vk.py:689
+msgid "Download something before!"
+msgstr "Téléchargez d'abord quelque chose!"
+
+#: handlers/vk.py:782
+msgid "No lyrics found"
+msgstr "Aucune parole trouvée pour ce morceau 😔"
