@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-02 15:51+0300\n"
-"PO-Revision-Date: 2015-12-02 15:56+0300\n"
+"POT-Creation-Date: 2015-12-23 13:57+0300\n"
+"PO-Revision-Date: 2015-12-26 23:43+0300\n"
 "Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
 "Language-Team: English\n"
 "Language: en_US\n"
@@ -72,7 +72,15 @@ msgstr ""
 msgid "Language settings updated"
 msgstr "👌🇬🇧 Language settings updated"
 
-#: handlers/vk.py:108
+#: handlers/i18n.py:115
+msgid "To select new language, use the following commands"
+msgstr "To select a new language, use the following commands"
+
+#: handlers/i18n.py:125
+msgid "Please, select new language"
+msgstr "Please, select a new language"
+
+#: handlers/vk.py:109
 #, python-format
 msgid ""
 "Oops! Looks like your VK authorization is lost. Please, authorize me again "
@@ -133,13 +141,13 @@ msgstr ""
 msgid ""
 "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
 msgstr ""
-"What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+"Which artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
 
 #: handlers/vk.py:318
 msgid ""
 "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 msgstr ""
-"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+"Which song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 
 #: handlers/vk.py:436
 #, python-format
@@ -154,7 +162,7 @@ msgstr "You need to search for something before 🐸"
 
 #: handlers/vk.py:578
 msgid "Song is too big"
-msgstr "Song is too big 😔"
+msgstr "This song is too big 😔"
 
 #: handlers/vk.py:618 handlers/vk.py:777
 #, python-format
