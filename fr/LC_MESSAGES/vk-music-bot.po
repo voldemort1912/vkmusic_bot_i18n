@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-23 13:57+0300\n"
-"PO-Revision-Date: 2015-12-23 14:56+0300\n"
+"POT-Creation-Date: 2015-12-28 13:59+0300\n"
+"PO-Revision-Date: 2015-12-28 13:59+0300\n"
 "Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
 "Language-Team: English\n"
 "Language: fr\n"
@@ -21,65 +21,68 @@ msgstr ""
 #: handlers/custom.py:12
 msgid "intro_msg"
 msgstr ""
-"Hi! Just send me an artist and/or a song name and I will find music for you!\n"
-"/song — search by song name\n"
-"/artist — search for artist name\n"
-"/setlang — change language"
+"Salut ! Envoyez-moi un artiste et/ou un nom de morceau et je trouverai la "
+"musique pour vous !\n"
+"/song — rechercher par le nom de morceau\n"
+"/artist — rechercher par le nom d’artiste\n"
+"/setlang — Changer de langue"
 
 #: handlers/custom.py:33
 msgid "help_cmd_reply"
 msgstr ""
-"🔥 Commands\n"
-"Just send me an artist and/or a song name and I will find music for you!\n"
-"/song — search by song name (useful for group chats)\n"
-"/artist — search for artist name\n"
-"/randomglobal /rg — get a random song\n"
-"/my — access your vk audio\n"
-"/friends — access your vk friends\n"
-"/groups — access your vk groups\n"
-"/add — add the last downloaded song to your vk audio\n"
+"🔥 Commandes\n"
+"Envoyez-moi un artiste et/ou un nom de morceau et je trouverai la musique "
+"pour vous !\n"
+"/song — rechercher par le nom de morceau (utile pour les discussions de "
+"groupe)\n"
+"/artist — rechercher par le nom d’artiste\n"
+"/randomglobal /rg — choisir un morceau au hasard\n"
+"/my —  accéder à votre fichiers audio de vk\n"
+"/friends — accéder à votre amis de vk\n"
+"/groups — accéder à votre groupes de vk\n"
+"/add — ajouter le dernier morceau téléchargé à votre fichiers audio de vk\n"
 "\n"
-"☝️ To access personalized vk.com features you need to authorize me in VK via /"
-"start command\n"
+"☝️ Veuillez m'autoriser sur VK par la commande /start pour accéder aux "
+"fonctions personnalisées de vk.com\n"
 "\n"
-"💕 Favorites\n"
-"/save /like — add the last downloaded song to favorites\n"
-"/remove /del — remove the last song from favorites\n"
-"/random /r — random song from your favs\n"
+"💕 Favoris\n"
+"/save /like — ajouter le dernier morceau téléchargé à favoris\n"
+"/remove /del — supprimer le dernier morceau des favoris\n"
+"/random /r — un morceau aléatoire de votre favoris\n"
 "\n"
-"📖 Lyrics\n"
-"/lyrics /text /l — get lyrics for the last downloaded song\n"
-"/lyrics /text /l [1-9] — get lyrics for the song from the search list (songs "
-"with lyrics are marked with 📖)\n"
+"📖 Paroles\n"
+"/lyrics /text /l — trouver les paroles pour le dernier morceau téléchargé\n"
+"/lyrics /text /l [1-9] — trouver les paroles pour le morceau dans la liste de "
+"recherche (morceaux avec des paroles sont marquées avec un 📖)\n"
 "\n"
-"🌎 Languages\n"
-"/setlang — change language\n"
+"🌎 Langues\n"
+"/setlang — Changer de langue\n"
 "\n"
-"⏬ Batch downloads\n"
-"/getall — download all songs from search results\n"
-"To download many songs at one time you can use ranges when specifying number "
-"to download (e.g., «1-9» or «1,4,5», «1,3,6-9»). The same applies for "
-"commands (e.g., /1,4,6-9)\n"
+"⏬ Téléchargements par lots\n"
+"/getall — télécharger toutes les morceaux dans la liste des résultats\n"
+"Pour télécharger de nombreuses morceaux à la fois, vous pouvez saisissez une "
+"tranche de numéros (ex. «1-9» ou «1,4,5», «1,3,6-9»). Il en est de même pour "
+"les commandes (ex. /1,4,6-9)\n"
 "\n"
-"⭐️ If you like this bot, please rate it 5 stars in the bot-store: https://"
+"⭐️ Si vous aimez ce bot, veuillez noter 5 étoiles dans le bot store : https://"
 "telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
-"Official news channel: @vkmusic_bot_news\n"
-"Contact information: @igonzo\n"
+"Chaîne d'information officiel : @vkmusic_bot_news\n"
+"Informations de contact : @igonzo\n"
 "\n"
-"Support and donations: http://vkmusicbot.tk/"
+"Appui et dons : http://vkmusicbot.tk/"
 
 #: handlers/i18n.py:92
 msgid "Language settings updated"
-msgstr "👌🇬🇧 Language settings updated"
+msgstr "👌🇫🇷 Les paramètres sont mis à jour"
 
 #: handlers/i18n.py:115
 msgid "To select new language, use the following commands"
-msgstr ""
+msgstr "Pour sélectionner une nouvelle langue, utilisez les commandes suivants"
 
 #: handlers/i18n.py:125
 msgid "Please, select new language"
-msgstr ""
+msgstr "Veuillez selectionner la nouvelle langue"
 
 #: handlers/vk.py:109
 #, python-format
@@ -87,62 +90,62 @@ msgid ""
 "Oops! Looks like your VK authorization is lost. Please, authorize me again "
 "via the link %s"
 msgstr ""
-"Oops! Looks like your VK authorization is lost. Please, authorize me again "
-"via the link %s"
+"Oups ! Il semble que votre autorisation de VK est perdu. Veuillez m’autoriser "
+"à nouveau sur le lien %s"
 
 #: handlers/vk.py:120 handlers/vk.py:123
 msgid "Oops, something went wrong. Please try again later."
-msgstr "Oops, something went wrong. Please try again later."
+msgstr "Oups, quelque chose a mal tourné. Veuillez réessayer plus tard."
 
 #: handlers/vk.py:130
 msgid "unknown_user_in_chat_msg"
 msgstr ""
-"Hi! Looks like we didn’t meet yet😳\n"
-"Send me a private message /start, and I will guide you what to do next"
+"Salut ! Il semble que nous n’avons pas encore rencontré 😳\n"
+"Envoyez-moi un message privé /start et je vous guiderai"
 
 #: handlers/vk.py:134
 #, python-format
 msgid "Auth via %s"
 msgstr ""
-"To access all features you need to authorize me in your VK, follow the link "
-"to do it %s"
+"Veuillez m’autoriser sur votre VK pour accéder tout les fonctions, suivez le "
+"lien pour ce faire %s"
 
 #: handlers/vk.py:166
 msgid "I found nothing"
-msgstr "I found nothing 😔"
+msgstr "Je n'ai rien trouvé 😔"
 
 #: handlers/vk.py:270
 msgid "Wall"
-msgstr ""
+msgstr "Mur"
 
 #: handlers/vk.py:271
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: handlers/vk.py:272
 msgid "Albums"
-msgstr ""
+msgstr "Albums"
 
 #: handlers/vk.py:276 handlers/vk.py:286
 msgid "Use /prev or /next to navigate"
-msgstr ""
+msgstr "Utilisez /prev ou /next pour naviguer"
 
 #: handlers/vk.py:317
 msgid "To access this feature you need to authorize me in VK via /start command"
 msgstr ""
-"To access this feature you need to authorize me in VK via /start command"
+"Veuillez m’autoriser sur VK par la commande /start pour accéder à cette "
+"fonction"
 
 #: handlers/vk.py:345
 msgid ""
 "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
-msgstr ""
-"What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+msgstr "Quel artiste cherchez-vous ? Par exemple «Lera Lynn» ou «Wiz Khalifa»"
 
 #: handlers/vk.py:347
 msgid ""
 "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 msgstr ""
-"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+"Quel morceau cherchez-vous ? Par exemple «Get Lucky» ou «Take Me To Church»"
 
 #: handlers/vk.py:465
 #, python-format
@@ -150,28 +153,30 @@ msgid ""
 "Oops! You need to give me access to your friends. Please, authorize me again "
 "via the link %s"
 msgstr ""
+"Oups ! Vous devez me permettre d'accéder à votre amis. Veuillez m’autoriser à "
+"nouveau sur le lien %s"
 
 #: handlers/vk.py:481
 msgid "You need to search for something before"
-msgstr "You need to search for something first 🐸"
+msgstr "Veuillez d'abord chercher quelque chose 🐸"
 
 #: handlers/vk.py:607
 msgid "Song is too big"
-msgstr "Song is too big 😔"
+msgstr "Le morceau est trop grand 😔"
 
 #: handlers/vk.py:647 handlers/vk.py:806
 #, python-format
 msgid "Choose a song number from 1 to %d"
-msgstr "Choose a song number from 1 to %d"
+msgstr "Choisissez un numéro de morceau de 1 à %d"
 
 #: handlers/vk.py:665
 msgid "Song is removed by copyright owners"
-msgstr "⛔️ Song is removed by copyright owners"
+msgstr "⛔️ Ce morceau a été retirée par les titulaires de droits d'auteur"
 
 #: handlers/vk.py:689
 msgid "Download something before!"
-msgstr "Download something first!"
+msgstr "Téléchargez d'abord quelque chose !"
 
 #: handlers/vk.py:782
 msgid "No lyrics found"
-msgstr "No lyrics found for this song 😔"
+msgstr "Aucun paroles trouvé pour ce morceau 😔"
