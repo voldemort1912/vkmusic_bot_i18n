@@ -249,7 +249,7 @@ msgstr "1 dan %d gacha bir qo'shiq raqamini tanlang"
 
 #: handlers/vk.py:784
 msgid "Song is removed by copyright owners"
-msgstr "Qo’shiq mualliflik egalari tomonidan o’chirildi"
+msgstr "⛔️ Qo’shiq mualliflik egalari tomonidan o’chirildi"
 
 #: handlers/vk.py:811
 msgid "Download something before!"
