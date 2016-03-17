@@ -257,4 +257,4 @@ msgstr "Oldin bir narsa yuklab oling!"
 
 #: handlers/vk.py:904
 msgid "No lyrics found"
-msgstr "Bu qo’shiq matni topilmadi"
+msgstr "Bu qo’shiq matni topilmadi 😔"
