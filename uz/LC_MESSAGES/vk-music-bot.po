@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-13 15:36+0300\n"
-"PO-Revision-Date: 2016-03-17 06:41+0300\n"
+"PO-Revision-Date: 2016-03-17 12:11+0300\n"
 "Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
 "Language-Team: \n"
 "Language: uz\n"
@@ -23,121 +23,129 @@ msgid ""
 "Thanks! Now you can use personalized commands.\n"
 "For example, use /my to access your VK audio"
 msgstr ""
+"Rahmat, Endi siz shaxsiy buyruqlardan foydalana olasiz.\n"
+"Masalan, VK albumlaringizga kirish uchun quyidagi buyruqdan foydalaning  /my"
 
 #: handlers/custom.py:15 handlers/vk.py:384
 msgid "intro_msg"
 msgstr ""
-"Hi! Just send me an artist and/or a song name and I will find music for you!\n"
-"/song — search by song name\n"
-"/artist — search for artist name\n"
-"/setlang — change language"
+"Salom! Menga artist va/yoki qo'shiq nomini yozing va men siz uchun topilgan "
+"qo'shiqlar ro'yhatini beraman!\n"
+"/song — qo'shiq nomi orqali qidirish\n"
+"/artist — qo'shiqchi nomi orqali qidirish\n"
+"/setlang — tilni o'zgartishish"
 
 #: handlers/custom.py:27
 msgid "This command can not be used in group chat, send it as a private message"
-msgstr ""
+msgstr "Bu buyruq gruppa chatlarida ishlamaydi. Shaxsiy xabar jo'nating"
 
 #: handlers/custom.py:47
 msgid "help_cmd_reply"
 msgstr ""
-"🔥 Commands\n"
-"Just send me an artist and/or a song name and I will find music for you!\n"
-"/song — search by song name (useful for group chats)\n"
-"/artist — search for artist name\n"
-"/randomglobal /rg — get a random song\n"
-"/my — access your vk audio\n"
-"/friends — access your vk friends\n"
-"/groups — access your vk groups\n"
-"/add — add the last downloaded song to your vk audio\n"
+"🔥 Buyruqlar\n"
+"Salom! Menga artist va/yoki qo'shiq nomini yozing va men siz uchun topilgan "
+"qo'shiqlar ro'yxatini beraman!\n"
+"/song — qo'shiq nomi orqali qidirish\n"
+"/artist — qo'shiqchi nomi orqali qidirish\n"
+"/randomglobal /rg — tasodifiv qo'shiq topish\n"
+"/my — vkontaktedagi shaxsiy qo'shiqlaringiz \n"
+"/friends — vkontaktedagi do'stlaringiz ro'yxati \n"
+"/groups — vkontaktedagi gruppalaringiz ro'yxati \n"
+"/add — oxirgi ko'chirilgan qo'shiqni VK albumingizga qo'shish\n"
 "\n"
-"☝️ To access personalized vk.com features you need to authorize me in VK via /"
-"start command\n"
+"☝️ Shaxsiy buyruqlarni ishlatish uchun, siz VK dagi profilingiz orqali ulanishingiz "
+"kerak. Buning uchun /start buyrig'idan foydalaning \n"
 "\n"
-"💕 Favorites\n"
-"/save /like — add the last downloaded song to favorites\n"
-"/remove /del — remove the last song from favorites\n"
-"/random /r — random song from your favs\n"
+"💕 Sevimli qo'shiqlar\n"
+"/save /like — oxirgi ko'chirilgan qo'shiqni sevimli qo'shiqlaringiz ro'yhatiga "
+"qo'shish\n"
+"/remove /del — oxirgi qo'shiqni sevimlilar ro'yhatidan olib tashlash\n"
+"/random /r — sevimli qo'shiqlaringiz ichidan tasodifiy qo'shiq tanlash\n"
 "\n"
-"📖 Lyrics\n"
-"/lyrics /text /l — get lyrics for the last downloaded song\n"
-"/lyrics /text /l [1-%(max_songs)d] — get lyrics for the song from the search "
-"list (songs with lyrics are marked with 📖)\n"
+"📖 Qo'shiq matnlari\n"
+"/lyrics /text /l — oxirgi ko'chirgan qo'shig'ingiz matni\n"
+"/lyrics /text /l [1-%(max_songs)d] — qidirilgan qo'shiqlar uchun matn (qo'shiq "
+"matniga ega qo'shiqlar 📖 bilan belgilanadi)\n"
 "\n"
-"🌎 Languages\n"
-"/setlang — change language\n"
+"🌎 Tillar\n"
+"/setlang — tilni o'zgartirish\n"
 "\n"
-"⏬ Batch downloads\n"
-"/getall — download all songs from search results\n"
+"⏬ To'plam ko'chirish\n"
+"/getall — ro'yhatidagi qidirilgan hamma qo'shiqni ko'chirish\n"
 "\n"
-"⭐️ If you like this bot, please rate it 5 stars in the bot-store: https://"
+"⭐️ Agar sizga bu bot yoqgan bo'lsa, Iltimos bizni 5 yulduz bilan baxolang: https://"
 "telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
-"Official news channel: @vkmusic_bot_news\n"
-"Contact information: @igonzo\n"
+"Rasmiy yangiliklar kanali: @vkmusic_bot_news\n"
+"Aloqa: @igonzo\n"
 "\n"
-"Support and donations: http://vkmusicbot.tk/"
+"Yordam va hadya: http://vkmusicbot.tk/"
 
 #: handlers/custom.py:60
 msgid "Donate"
-msgstr "💸 Donate"
+msgstr "💸 Hadya qilish"
 
 #: handlers/custom.py:61
 msgid "Leave a positive feedback"
-msgstr "🌟 Leave a positive feedback"
+msgstr "🌟 Ijobiy fikr qoldiring "
 
 #: handlers/custom.py:62
 msgid "Remind later"
-msgstr ""
+msgstr "Keyinroq eslatish"
 
 #: handlers/custom.py:73
 msgid ""
 "We would highly appreciate if you could help us with money donation at http://"
 "vkmusicbot.tk"
 msgstr ""
+"Agar siz bizga hadya qilmoqchi bo'lsangiz, biz judayam mamnun bo'lar edik. Buning "
+"uchun quyidagi link orqali kiring http://vkmusicbot.tk"
 
 #: handlers/custom.py:77
 msgid ""
 "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?"
 "start=vkmusic_bot"
 msgstr ""
-"Please rate us ⭐️⭐️⭐️⭐️⭐️ in the bot-store: https://telegram.me/storebot?"
+"Bot sizga yoqdimi? Unda bizga baxo bering. ⭐️⭐️⭐️⭐️⭐️ https://telegram.me/storebot?"
 "start=vkmusic_bot"
 
 #: handlers/custom.py:81
 msgid "Ok, we won't bother you for a while"
-msgstr ""
+msgstr "Hop, biz ozginaga sizni bezovta qilmay turamiz"
 
 #: handlers/custom.py:85
 msgid "If you like this bot there are a few ways you can support the developer!"
 msgstr ""
+"Agar bu bot sizga yoqgan bo'lsa, dasturchiga rahmat aytishni bir-ikki usullari bor!"
 
 #: handlers/i18n.py:103
 msgid "Language settings updated"
-msgstr "👌🇬🇧 Language settings updated"
+msgstr "👌🇺🇿 Til sozlamalari yangilandi"
 
 #: handlers/i18n.py:124
 msgid "To select new language, use the following commands"
-msgstr "To select a new language, use the following commands"
+msgstr "Yangi tilni tanlash uchun, quyidagi buyruqlardan foydalaning"
 
 #: handlers/i18n.py:135
 msgid "Please, select new language"
-msgstr "Please, select a new language"
+msgstr "Iltimos, yangi tilni tanlang"
 
 #: handlers/settings.py:21
 msgid "Language"
-msgstr ""
+msgstr "Til"
 
 #: handlers/settings.py:22
 #, python-format
 msgid "Lyrics icon: %s"
-msgstr ""
+msgstr "Qo'shiq matlari ikonkasi: %s"
 
 #: handlers/settings.py:23 handlers/settings.py:26
 msgid "Enabled"
-msgstr ""
+msgstr "Yoqilgan"
 
 #: handlers/settings.py:23 handlers/settings.py:26
 msgid "Disabled"
-msgstr ""
+msgstr "O'chirilgan"
 
 #: handlers/settings.py:25
 #, python-format
@@ -146,107 +154,107 @@ msgstr ""
 
 #: handlers/settings.py:28
 msgid "Cancel"
-msgstr ""
+msgstr "Bekor qilish"
 
 #: handlers/settings.py:52
 msgid "What would you like to change?"
-msgstr ""
+msgstr "Nimani o'zgartishni xohlaysiz?"
 
 #: handlers/vk.py:112
 #, python-format
 msgid ""
-"Oops! Looks like your VK authorization is lost. Please, authorize me again "
-"via the link %s"
+"Oops! Looks like your VK authorization is lost. Please, authorize me again via the "
+"link %s"
 msgstr ""
-"Oops! Looks like your VK authorization is lost. Please, authorize me again "
-"via the link %s"
+"Ehh! Sizni VK avtorizatsiyangiz yo'qolgan ko'rinadi. Iltimos, shu link orqali "
+"qayta kiring %s"
 
 #: handlers/vk.py:123 handlers/vk.py:126 handlers/vk.py:787
 msgid "Oops, something went wrong. Please try again later."
-msgstr "Oops, something went wrong. Please try again later."
+msgstr "Ehh, Nimadir xato ketdi. Iltimos keyinroq unirib ko'ring."
 
 #: handlers/vk.py:133
 msgid "unknown_user_in_chat_msg"
 msgstr ""
-"Hi! Looks like we didn’t meet yet😳\n"
-"Send me a private message /start, and I will guide you what to do next"
+"Salom! Biz hali uchrashmaganga o'xshaymiz 😳\n"
+"Menga shaxsiy xabar yozing /start, va men keyin nima qilish kerakligini "
+"tushuntiraman."
 
 #: handlers/vk.py:137 handlers/vk.py:384
 #, python-format
 msgid "Auth via %s"
 msgstr ""
-"To access all features you need to authorize me in your VK, follow the link "
-"to do it %s"
+"Bu hamma buyruqlarni ishga tushirish uchun VK orqali ulanishingiz kerak. Buning "
+"uchun quyidagi link orqali kiring %s"
 
 #: handlers/vk.py:178
 msgid "I found nothing"
-msgstr "I found nothing 😔"
+msgstr "Hech narsa topilmadi. 😔"
 
 #: handlers/vk.py:251
 msgid "I like this bot!"
-msgstr ""
+msgstr "Menga bu bot yoqdi!"
 
 #: handlers/vk.py:326
 msgid "Wall"
-msgstr ""
+msgstr "Devor"
 
 #: handlers/vk.py:327
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: handlers/vk.py:328
 msgid "Albums"
-msgstr ""
+msgstr "Albomlar"
 
 #: handlers/vk.py:332 handlers/vk.py:342
 msgid "Use /prev or /next to navigate"
-msgstr ""
+msgstr "Yo'naltish uchun /prev yoki /next dan foydalaning"
 
 #: handlers/vk.py:373
 msgid "To access this feature you need to authorize me in VK via /start command"
 msgstr ""
-"To access this feature you need to authorize me in VK via /start command"
+"Bu buyruqni ishga tushirish uchun VK orqali ulanishingiz kerak. Buning uchun /"
+"start buyrug'idan foydalaning."
 
 #: handlers/vk.py:402
-msgid ""
-"What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
-msgstr ""
-"Which artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+msgid "What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+msgstr "Qaysi qo'shiqchini qidiryapsiz? Masalan: «Ozodbek» yoki «Ummon»"
 
 #: handlers/vk.py:404
-msgid ""
-"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
-msgstr ""
-"Which song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+msgid "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+msgstr "Qaysi qo'shiqni qidiryapsiz? Masalan: «O'zbekiston», «Xayr» yoki «Yurak»"
 
 #: handlers/vk.py:546
 #, python-format
 msgid ""
-"Oops! You need to give me access to your friends. Please, authorize me again "
-"via the link %s"
+"Oops! You need to give me access to your friends. Please, authorize me again via "
+"the link %s"
 msgstr ""
+"Ehh! Siz do'stlaringiz ro'yhati uchun menga ruxsat berishingiz kerak. Iltimos, %s "
+"link orqali qayta kiring"
 
 #: handlers/vk.py:562
 msgid "You need to search for something before"
-msgstr "You need to search for something first 🐸"
+msgstr "Siz oldin biror narsa qidirishingiz kerak"
 
 #: handlers/vk.py:693
 msgid "Song is too big"
-msgstr "This song is too big 😔"
+msgstr "Qo’shiq hajmi juda katta 😔"
 
 #: handlers/vk.py:766 handlers/vk.py:928
 #, python-format
 msgid "Choose a song number from 1 to %d"
-msgstr "Choose a song number from 1 to %d"
+msgstr "1 dan %d gacha bir qo'shiq raqamini tanlang"
 
 #: handlers/vk.py:784
 msgid "Song is removed by copyright owners"
-msgstr "⛔️ Song is removed by copyright owners"
+msgstr "⛔️ Qo’shiq mualliflik egalari tomonidan o’chirildi"
 
 #: handlers/vk.py:811
 msgid "Download something before!"
-msgstr "Download something first!"
+msgstr "Oldin bir narsa yuklab oling!"
 
 #: handlers/vk.py:904
 msgid "No lyrics found"
-msgstr "No lyrics found for this song 😔"
+msgstr "Bu qo’shiq matni topilmadi 😔"
