@@ -10,6 +10,7 @@ Thanks to all these guys who helped us to make [@vkmusic_bot](https://telegram.m
 * [Lucas Vasconcelos](https://github.com/lucaslg26)
 * [ShadowK98](https://github.com/shadowk98)
 * [BlueFrog11](https://github.com/bluefrog11)
+* Abdulbosit @ForeMAN
 * and many more people who also helped us to develop and translate this bot!
 
 ## Translation guidelines
