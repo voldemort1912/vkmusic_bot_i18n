@@ -51,7 +51,7 @@ msgstr ""
 #: handlers/custom.py:73
 msgid ""
 "We would highly appreciate if you could help us with money donation at "
-"http://vkmusicbot.tk"
+"http://vkmbot.ru"
 msgstr ""
 
 #: handlers/custom.py:77

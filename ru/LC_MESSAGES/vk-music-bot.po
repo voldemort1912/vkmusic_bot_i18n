@@ -82,7 +82,7 @@ msgstr ""
 "\n"
 "Официальный канал новостей: @vkmusic_bot_news\n"
 "Контактная информация: @igonzo\n"
-"Поддержать проект можно тут: http://vkmusicbot.tk/"
+"Поддержать проект можно тут: http://vkmbot.ru/"
 
 #: handlers/custom.py:60
 msgid "Donate"
@@ -99,10 +99,10 @@ msgstr "Напомнить позже"
 #: handlers/custom.py:73
 msgid ""
 "We would highly appreciate if you could help us with money donation at "
-"http://vkmusicbot.tk"
+"http://vkmbot.ru"
 msgstr ""
 "Мы будем очень признательные, если вы поможете проекту деньгами. Сделать это "
-"можно здесь http://vkmusicbot.tk"
+"можно здесь http://vkmbot.ru"
 
 #: handlers/custom.py:77
 msgid ""

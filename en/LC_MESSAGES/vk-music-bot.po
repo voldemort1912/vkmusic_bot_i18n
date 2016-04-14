@@ -74,7 +74,7 @@ msgstr ""
 "Official news channel: @vkmusic_bot_news\n"
 "Contact information: @igonzo\n"
 "\n"
-"Support and donations: http://vkmusicbot.tk/"
+"Support and donations: http://vkmbot.ru/"
 
 #: handlers/custom.py:60
 msgid "Donate"
@@ -91,7 +91,7 @@ msgstr ""
 #: handlers/custom.py:73
 msgid ""
 "We would highly appreciate if you could help us with money donation at http://"
-"vkmusicbot.tk"
+"vkmbot.ru"
 msgstr ""
 
 #: handlers/custom.py:77

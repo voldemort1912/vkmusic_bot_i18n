@@ -65,7 +65,7 @@ msgstr ""
 "Official news channel: @vkmusic_bot_news\n"
 "Contact information: @igonzo\n"
 "\n"
-"Support and donations: http://vkmusicbot.tk/"
+"Support and donations: http://vkmbot.ru/"
 
 #: handlers/i18n.py:92
 msgid "Language settings updated"

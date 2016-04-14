@@ -79,7 +79,7 @@ msgstr ""
 "Rasmiy yangiliklar kanali: @vkmusic_bot_news\n"
 "Aloqa: @igonzo\n"
 "\n"
-"Yordam va hadya: http://vkmusicbot.tk/"
+"Yordam va hadya: http://vkmbot.ru/"
 
 #: handlers/custom.py:60
 msgid "Donate"
@@ -96,10 +96,10 @@ msgstr "Keyinroq eslatish"
 #: handlers/custom.py:73
 msgid ""
 "We would highly appreciate if you could help us with money donation at http://"
-"vkmusicbot.tk"
+"vkmbot.ru"
 msgstr ""
 "Agar siz bizga hadya qilmoqchi bo'lsangiz, biz judayam mamnun bo'lar edik. Buning "
-"uchun quyidagi link orqali kiring http://vkmusicbot.tk"
+"uchun quyidagi link orqali kiring http://vkmbot.ru"
 
 #: handlers/custom.py:77
 msgid ""
