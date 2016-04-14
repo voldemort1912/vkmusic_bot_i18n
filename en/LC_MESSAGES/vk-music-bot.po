@@ -30,7 +30,8 @@ msgstr ""
 "Hi! Just send me an artist and/or a song name and I will find music for you!\n"
 "/song — search by song name\n"
 "/artist — search for artist name\n"
-"/setlang — change language"
+"/setlang — change language\n"
+"/settings — change settings"
 
 #: handlers/custom.py:27
 msgid "This command can not be used in group chat, send it as a private message"
