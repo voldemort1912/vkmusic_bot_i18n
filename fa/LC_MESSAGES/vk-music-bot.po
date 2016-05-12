@@ -30,9 +30,9 @@ msgstr ""
 
 #: handlers/audio.py:20
 msgid ""
-"به دنبال چه خواننده ای هستید ؟ برای مثال «Pitbull» or «Selena Gomez»"
+"به دنبال چه خواننده ای هستید ؟ برای مثال «Pitbull» یا «Selena Gomez»"
 msgstr ""
-"به دنبال چه خواننده ای هستید ؟ برای مثال «Pitbull» or «Selena Gomez»"
+"به دنبال چه خواننده ای هستید ؟ برای مثال «Pitbull» یا «Selena Gomez»"
 
 #: handlers/audio.py:22
 msgid ""
