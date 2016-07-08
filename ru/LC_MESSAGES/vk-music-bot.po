@@ -31,7 +31,7 @@ msgid ""
 "Thanks! Now you can use personalized commands.\n"
 "For example, use /my to access your VK audio"
 msgstr ""
-"Спасибо! Сейчас ты можешь использовать песонализованные команды.\n"
+"Спасибо! Сейчас ты можешь использовать персонализованные команды.\n"
 "Например, используй /my для доступа к твоим аудиозаписям ВК"
 
 #: handlers/audio.py:20
