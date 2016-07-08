@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-05 12:13+0300\n"
-"PO-Revision-Date: 2016-05-12 16:26+0300\n"
+"POT-Creation-Date: 2016-07-08 15:20+0300\n"
+"PO-Revision-Date: 2016-07-08 15:49+0300\n"
 "Last-Translator: Amirhosseinhpv <support@intel-software.ir>\n"
 "Language-Team: \n"
 "Language: fa\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: search.py:62 handlers/vk.py:187
+#: search.py:64 handlers/vk.py:177
 msgid "I found nothing"
 msgstr "چیزی پیدا نشد 😔"
 
@@ -35,10 +35,11 @@ msgid "What artist are you looking for? For example «Lera Lynn» or «Wiz Khali
 msgstr "به دنبال چه خواننده ای هستید ؟ برای مثال «Pitbull» یا «Selena Gomez»"
 
 #: handlers/audio.py:22
-msgid "What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+msgid ""
+"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 msgstr "به دنبال چه آهنگی هستید ؟ برای مثال «Hands To Myself» یا «Bad Blood»"
 
-#: handlers/custom.py:16 handlers/vk.py:387
+#: handlers/custom.py:16 handlers/vk.py:379
 msgid "intro_msg"
 msgstr ""
 "سلام ! نام خواننده و/یا اهنگ را به من بدهید تا ترانه را برای شما پیدا کنم!\n"
@@ -58,18 +59,12 @@ msgstr ""
 "فقط نام خواننده و/یا آهنگ را به من بدهید تا ترانه را برای شما پیدا کنم!\n"
 "‏/song — جستجو نام اهنگ (مفید برای چت گروهی)\n"
 "‏/artist — جستجو نام خواننده\n"
-"‏/randomglobal /rg — ترانه تصادفی\n"
 "‏/my — دسترسی به آهنگهایتان در VK\n"
 "‏/friends —‪‬ دسترسی به دوستانتان در VK\n"
 "‏/groups — دسترسی به گروهایتان در VK\n"
 "‏/add — افزودن آخرین ترانه دانلودی به آهنگهایتان در VK\n"
 "‏\n"
 "☝ برای دستیابی به قابلیت های ربات باید با vk.com از طریق /start وارد شوید\n"
-"‏\n"
-"💕 علاقهمندی ها\n"
-"‏/save /like — افزودن اخرین ترانه دانلودی به موردعلاقه ها\n"
-"‏/remove /del — حذف ترانه قبلی از موردعلاقه ها\n"
-"‏/random /r — ترانه تصادفی از موردعلاقها\n"
 "‏\n"
 "📖 متن ترانه\n"
 "‏/lyrics /text /l — متن ترانه اخرین آهنگ دانلودی\n"
@@ -80,8 +75,8 @@ msgstr ""
 "⏬ دانلود همه\n"
 "‏/getall — دانلود همه ترانه های یافت شده\n"
 "‏\n"
-"⭐ اگر از این ربات خوشتان آمده است به ما 5 ستاره در استوربوت بدهید : https://telegram.me/"
-"storebot?start=vkmusic_bot\n"
+"⭐ اگر از این ربات خوشتان آمده است به ما 5 ستاره در استوربوت بدهید : https://"
+"telegram.me/storebot?start=vkmusic_bot\n"
 "‏\n"
 "کانال رسمی اخبار ربات: @vkmusic_bot_news\n"
 "تماس با سازنده: @igonzo\n"
@@ -101,12 +96,18 @@ msgid "Remind later"
 msgstr "بعدا یادآور شو"
 
 #: handlers/custom.py:76
-msgid "We would highly appreciate if you could help us with money donation at http://vkmbot.ru"
-msgstr "با تمام وجود قدردان شما خواهیم بود اگر یه ما کمک مالی کنید : http://vkmbot.ru"
+msgid ""
+"We would highly appreciate if you could help us with money donation at http://"
+"vkmbot.ru"
+msgstr ""
+"با تمام وجود قدردان شما خواهیم بود اگر یه ما کمک مالی کنید : http://vkmbot.ru"
 
 #: handlers/custom.py:81
-msgid "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?start=vkmusic_bot"
-msgstr "به ما ⭐️⭐️⭐️⭐ در استوربوت بدهید : https://telegram.me/storebot?start=vkmusic_bot"
+msgid ""
+"Please rate us 5 stars in the bot-store: https://telegram.me/storebot?"
+"start=vkmusic_bot"
+msgstr ""
+"به ما ⭐️⭐️⭐️⭐ در استوربوت بدهید : https://telegram.me/storebot?start=vkmusic_bot"
 
 #: handlers/custom.py:86
 msgid "Ok, we won't bother you for a while"
@@ -114,17 +115,19 @@ msgstr "خب ، برای مدتی شما را نمی آزاریم"
 
 #: handlers/custom.py:91
 msgid "If you like this bot there are a few ways you can support the developer!"
-msgstr "اگر از این ربات خوشتان آمده است ، راهای اندکی برای حمایت از توسعه دهنده وجود دارد!"
+msgstr ""
+"اگر از این ربات خوشتان آمده است ، راهای اندکی برای حمایت از توسعه دهنده وجود "
+"دارد!"
 
-#: handlers/i18n.py:109
+#: handlers/i18n.py:115
 msgid "Language settings updated"
 msgstr "👌🇮🇷 تنظیمات زبان به روزرسانی شد"
 
-#: handlers/i18n.py:131
+#: handlers/i18n.py:138
 msgid "To select new language, use the following commands"
 msgstr "برای انتخاب زبان جدید ، از دستورات زیر استفاده کنید"
 
-#: handlers/i18n.py:142
+#: handlers/i18n.py:149
 msgid "Please, select new language"
 msgstr "لطفا زبان جدید را انتخاب نمایید"
 
@@ -163,88 +166,79 @@ msgstr "خارج کردن از VK (id %s)"
 msgid "What would you like to change?"
 msgstr "مایل به تعقیر چه چیزی هستید ؟"
 
-#: handlers/vk.py:119
-#, python-format
-msgid ""
-"Oops! Looks like your VK authorization is lost. Please, authorize me again via the link %s"
-msgstr "متاسفانه شما دسترسی به VK را از دست داده اید ! دوباره از طریق لینک اقدام کنید %s"
-
-#: handlers/vk.py:130 handlers/vk.py:133 handlers/vk.py:701
+#: handlers/vk.py:118 handlers/vk.py:128 handlers/vk.py:131 handlers/vk.py:695
 msgid "Oops, something went wrong. Please try again later."
 msgstr "متاسفانه خطایی زخ داده ! مجددا بعدا سعی نمایید"
 
-#: handlers/vk.py:140
+#: handlers/vk.py:138
 msgid "unknown_user_in_chat_msg"
 msgstr ""
 "سلام ، ظاهرا قبلا همدیگر رو ندیده بودیم ! 😳\n"
 "یک پیام خصوصی با /start, برای من بفرستید تا شما را راهنمایی کنم"
 
-#: handlers/vk.py:144 handlers/vk.py:387
+#: handlers/vk.py:142
 #, python-format
-msgid "Auth via %s"
-msgstr "برای استفاده از تمامی امکانات به حساب VK خود از طریق لینک وارد شود%s"
+msgid ""
+"To access all features you need to authorize me in your VK, follow [the link]"
+"(%s) to do it"
+msgstr ""
 
-#: handlers/vk.py:311
+#: handlers/vk.py:284
 msgid "Wall"
 msgstr "تصویر"
 
-#: handlers/vk.py:312
+#: handlers/vk.py:285
 msgid "Audio"
 msgstr "ترانه"
 
-#: handlers/vk.py:313
+#: handlers/vk.py:286
 msgid "Albums"
 msgstr "آلبوم"
 
-#: handlers/vk.py:317 handlers/vk.py:327
-msgid "Use /prev or /next to navigate"
-msgstr "از طریق /prev  و  /next به جلو و عقب حرکت کنید"
-
-#: handlers/vk.py:358
+#: handlers/vk.py:348
 msgid "I like this bot!"
 msgstr "این ربات را دوست دارم !"
 
-#: handlers/vk.py:376
-msgid "To access this feature you need to authorize me in VK via /start command"
-msgstr "برای استفاده از تمامی امکانات به حساب VK خود از طریق /start وارد شود"
+#: handlers/vk.py:367
+msgid "To access this feature you need to authorize me in VK"
+msgstr "برای استفاده از تمامی امکانات به حساب VK خود از طریق"
 
-#: handlers/vk.py:474
+#: handlers/vk.py:466
 #, python-format
 msgid ""
-"Oops! You need to give me access to your friends. Please, authorize me again via the link %s"
+"Oops! You need to give me access to your friends. Please, authorize me again "
+"via [this link](%s)"
 msgstr ""
-"شما باید به من اجازه دسترسی به دوستانتان را بدهید ، دوباره از طریق لینک وارد حساب VK خود شوید"
-"%s"
 
-#: handlers/vk.py:490
+#: handlers/vk.py:482
 msgid "You need to search for something before"
 msgstr "شما باید اول جستجویی انجام دهید 🐸"
 
-#: handlers/vk.py:592
+#: handlers/vk.py:597
 msgid "Error"
 msgstr "خطا"
 
-#: handlers/vk.py:594
+#: handlers/vk.py:599
 msgid "Song is too big"
 msgstr "این ترانه خیلی حجیم هست 😔"
 
-#: handlers/vk.py:595
+#: handlers/vk.py:600
 msgid "Download"
 msgstr "دانلود"
 
-#: handlers/vk.py:679 handlers/vk.py:852
+#: handlers/vk.py:675 handlers/vk.py:847
 #, python-format
 msgid "Choose a song number from 1 to %d"
 msgstr "یک شماره اهنگ از 1 تا %d انتخاب کنید"
 
-#: handlers/vk.py:698
+#: handlers/vk.py:692
 msgid "Song is removed by copyright owners"
 msgstr "⛔️ آهنگ توسط صاحبان کپی رایت حذف شده است"
 
-#: handlers/vk.py:739
+#: handlers/vk.py:734
 msgid "Download something before!"
 msgstr "شما باید اول دانلودی انجام دهید!"
 
-#: handlers/vk.py:828
+#: handlers/vk.py:823
 msgid "No lyrics found"
 msgstr "هیچ متنی برای این اهنگ یافت نشد 😔"

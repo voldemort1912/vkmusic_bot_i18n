@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-05 12:13+0300\n"
-"PO-Revision-Date: 2016-05-05 12:17+0300\n"
+"POT-Creation-Date: 2016-07-08 15:43+0300\n"
+"PO-Revision-Date: 2016-07-08 15:43+0300\n"
 "Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
 "Language-Team: English\n"
 "Language: en_US\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: search.py:62 handlers/vk.py:187
+#: search.py:64 handlers/vk.py:177
 msgid "I found nothing"
 msgstr "I found nothing 😔"
 
@@ -27,6 +27,8 @@ msgid ""
 "Thanks! Now you can use personalized commands.\n"
 "For example, use /my to access your VK audio"
 msgstr ""
+"Thanks! Now you can use personalized commands.\n"
+"For example, use /my to access your VK audio"
 
 #: handlers/audio.py:20
 msgid ""
@@ -40,7 +42,7 @@ msgid ""
 msgstr ""
 "Which song are you looking for? For example «Get Lucky» or «Take Me To Church»"
 
-#: handlers/custom.py:16 handlers/vk.py:387
+#: handlers/custom.py:16 handlers/vk.py:379
 msgid "intro_msg"
 msgstr ""
 "Hi! Just send me an artist and/or a song name and I will find music for you!\n"
@@ -53,6 +55,7 @@ msgstr ""
 msgid ""
 "This command can not be used in a group chat, send it as a private message"
 msgstr ""
+"This command can not be used in a group chat, send it as a private message"
 
 #: handlers/custom.py:48
 msgid "help_cmd_reply"
@@ -61,7 +64,6 @@ msgstr ""
 "Just send me an artist and/or a song name and I will find music for you!\n"
 "/song — search by song name (useful for group chats)\n"
 "/artist — search for artist name\n"
-"/randomglobal /rg — get a random song\n"
 "/my — access your vk audio\n"
 "/friends — access your vk friends\n"
 "/groups — access your vk groups\n"
@@ -69,11 +71,6 @@ msgstr ""
 "\n"
 "☝️ To access personalized vk.com features you need to authorize me in VK via /"
 "start command\n"
-"\n"
-"💕 Favorites\n"
-"/save /like — add the last downloaded song to favorites\n"
-"/remove /del — remove the last song from favorites\n"
-"/random /r — random song from your favs\n"
 "\n"
 "📖 Lyrics\n"
 "/lyrics /text /l — get lyrics for the last downloaded song\n"
@@ -104,13 +101,15 @@ msgstr "🌟 Leave a positive feedback"
 
 #: handlers/custom.py:64
 msgid "Remind later"
-msgstr ""
+msgstr "Remind later"
 
 #: handlers/custom.py:76
 msgid ""
 "We would highly appreciate if you could help us with money donation at http://"
 "vkmbot.ru"
 msgstr ""
+"We would highly appreciate if you could help us with money donation at http://"
+"vkmbot.ru"
 
 #: handlers/custom.py:81
 msgid ""
@@ -122,146 +121,144 @@ msgstr ""
 
 #: handlers/custom.py:86
 msgid "Ok, we won't bother you for a while"
-msgstr ""
+msgstr "Ok, we won’t bother you for a while"
 
 #: handlers/custom.py:91
 msgid "If you like this bot there are a few ways you can support the developer!"
 msgstr ""
+"If you like this bot there are a few ways you can support the developer!"
 
-#: handlers/i18n.py:109
+#: handlers/i18n.py:115
 msgid "Language settings updated"
 msgstr "👌🇬🇧 Language settings updated"
 
-#: handlers/i18n.py:131
+#: handlers/i18n.py:138
 msgid "To select new language, use the following commands"
 msgstr "To select a new language, use the following commands"
 
-#: handlers/i18n.py:142
+#: handlers/i18n.py:149
 msgid "Please, select new language"
 msgstr "Please, select a new language"
 
 #: handlers/settings.py:22
 msgid "Language"
-msgstr ""
+msgstr "Language"
 
 #: handlers/settings.py:23
 #, python-format
 msgid "Lyrics icon: %s"
-msgstr ""
+msgstr "Lyrics icon: %s"
 
 #: handlers/settings.py:24 handlers/settings.py:27
 msgid "Enabled"
-msgstr ""
+msgstr "Enabled"
 
 #: handlers/settings.py:24 handlers/settings.py:27
 msgid "Disabled"
-msgstr ""
+msgstr "Disabled"
 
 #: handlers/settings.py:26
 #, python-format
 msgid "Bitrate preview: %s"
-msgstr ""
+msgstr "Bitrate preview: %s"
 
 #: handlers/settings.py:29
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #: handlers/settings.py:38
 #, python-format
 msgid "Unlink VK (id %s)"
-msgstr ""
+msgstr "Unlink VK (id %s)"
 
 #: handlers/settings.py:59
 msgid "What would you like to change?"
-msgstr ""
+msgstr "What would you like to change?"
 
-#: handlers/vk.py:119
-#, python-format
-msgid ""
-"Oops! Looks like your VK authorization is lost. Please, authorize me again "
-"via the link %s"
-msgstr ""
-"Oops! Looks like your VK authorization is lost. Please, authorize me again "
-"via the link %s"
-
-#: handlers/vk.py:130 handlers/vk.py:133 handlers/vk.py:701
+#: handlers/vk.py:118 handlers/vk.py:128 handlers/vk.py:131 handlers/vk.py:695
 msgid "Oops, something went wrong. Please try again later."
 msgstr "Oops, something went wrong. Please try again later."
 
-#: handlers/vk.py:140
+#: handlers/vk.py:138
 msgid "unknown_user_in_chat_msg"
 msgstr ""
 "Hi! Looks like we didn’t meet yet😳\n"
 "Send me a private message /start, and I will guide you what to do next"
 
-#: handlers/vk.py:144 handlers/vk.py:387
+#: handlers/vk.py:142
 #, python-format
-msgid "Auth via %s"
+msgid ""
+"To access all features you need to authorize me in your VK, follow [the link]"
+"(%s) to do it"
 msgstr ""
-"To access all features you need to authorize me in your VK, follow the link "
-"to do it %s"
+"To access all features you need to authorize me in your VK, follow [the link]"
+"(%s) to do it"
 
-#: handlers/vk.py:311
+#: handlers/vk.py:284
 msgid "Wall"
-msgstr ""
+msgstr "Wall"
 
-#: handlers/vk.py:312
+#: handlers/vk.py:285
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
-#: handlers/vk.py:313
+#: handlers/vk.py:286
 msgid "Albums"
-msgstr ""
+msgstr "Albums"
 
-#: handlers/vk.py:317 handlers/vk.py:327
-msgid "Use /prev or /next to navigate"
-msgstr ""
-
-#: handlers/vk.py:358
+#: handlers/vk.py:348
 msgid "I like this bot!"
-msgstr ""
+msgstr "I like this bot!"
 
-#: handlers/vk.py:376
-msgid "To access this feature you need to authorize me in VK via /start command"
-msgstr ""
-"To access this feature you need to authorize me in VK via /start command"
+#: handlers/vk.py:367
+msgid "To access this feature you need to authorize me in VK"
+msgstr "To access this feature you need to authorize me in VK"
 
-#: handlers/vk.py:474
+#: handlers/vk.py:466
 #, python-format
 msgid ""
 "Oops! You need to give me access to your friends. Please, authorize me again "
-"via the link %s"
+"via [this link](%s)"
 msgstr ""
+"Oops! You need to give me access to your friends. Please, authorize me again "
+"via [this link](%s)"
 
-#: handlers/vk.py:490
+#: handlers/vk.py:482
 msgid "You need to search for something before"
 msgstr "You need to search for something first 🐸"
 
-#: handlers/vk.py:592
+#: handlers/vk.py:597
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
-#: handlers/vk.py:594
+#: handlers/vk.py:599
 msgid "Song is too big"
 msgstr "This song is too big 😔"
 
-#: handlers/vk.py:595
+#: handlers/vk.py:600
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
-#: handlers/vk.py:679 handlers/vk.py:852
+#: handlers/vk.py:675 handlers/vk.py:847
 #, python-format
 msgid "Choose a song number from 1 to %d"
 msgstr "Choose a song number from 1 to %d"
 
-#: handlers/vk.py:698
+#: handlers/vk.py:692
 msgid "Song is removed by copyright owners"
 msgstr "⛔️ Song is removed by copyright owners"
 
-#: handlers/vk.py:739
+#: handlers/vk.py:734
 msgid "Download something before!"
 msgstr "Download something first!"
 
-#: handlers/vk.py:828
+#: handlers/vk.py:823
 msgid "No lyrics found"
 msgstr "No lyrics found for this song 😔"
+
+#~ msgid ""
+#~ "Oops! Looks like your VK authorization is lost. Please, authorize me again "
+#~ "via the link %s"
+#~ msgstr ""
+#~ "Oops! Looks like your VK authorization is lost. Please, authorize me again "
+#~ "via the link %s"
