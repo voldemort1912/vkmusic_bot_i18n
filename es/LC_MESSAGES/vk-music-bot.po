@@ -69,11 +69,11 @@ msgstr ""
 
 #: handlers/custom.py:62
 msgid "Donate"
-msgstr "Donar"
+msgstr "💸 Donar"
 
 #: handlers/custom.py:63
 msgid "Leave a positive feedback"
-msgstr "Dejar feedback positivo"
+msgstr "🌟 Dejar feedback positivo"
 
 #: handlers/custom.py:64
 msgid "Remind later"
