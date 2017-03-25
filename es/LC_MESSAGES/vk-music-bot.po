@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-08 15:16+0300\n"
-"PO-Revision-Date: 2017-03-25 19:18+0100\n"
+"PO-Revision-Date: 2017-03-25 21:48+0100\n"
 "Last-Translator: Gerardo Balboa <@Gerardo>\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -69,11 +69,11 @@ msgstr ""
 
 #: handlers/custom.py:62
 msgid "Donate"
-msgstr "💸 Donar"
+msgstr "Donar"
 
 #: handlers/custom.py:63
 msgid "Leave a positive feedback"
-msgstr "🌟Dejar feedback positivo"
+msgstr "Dejar feedback positivo"
 
 #: handlers/custom.py:64
 msgid "Remind later"
@@ -101,11 +101,11 @@ msgstr "👌🇪🇸 Ajustes de idioma actualizados"
 
 #: handlers/i18n.py:138
 msgid "To select new language, use the following commands"
-msgstr "Para elegir un idioma nuevo, usa los siguientes comandos"
+msgstr "Para elegir otro idioma, usa los siguientes comandos"
 
 #: handlers/i18n.py:149
 msgid "Please, select new language"
-msgstr "Por favor, elige un idioma nuevo"
+msgstr "Por favor, elige un idioma"
 
 #: handlers/settings.py:22
 msgid "Language"
