@@ -65,6 +65,7 @@ msgstr ""
 "/song — search by song name (useful for group chats)\n"
 "/artist — search for artist name\n"
 "/getall — download all songs from search results\n"
+"/my — list your playlist\n"
 "/settings — change settings\n"
 "\n"
 "⭐️ If you like this bot, please rate it 5 stars in the bot-store: https://"
@@ -85,7 +86,7 @@ msgstr "🌟 Leave a positive feedback"
 
 #: handlers/custom.py:64
 msgid "Remind later"
-msgstr "Remind later"
+msgstr "⏰ Remind later"
 
 #: handlers/custom.py:76
 msgid ""
