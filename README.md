@@ -22,6 +22,6 @@ Thanks to all these guys who helped us to make [@vkmusic_bot](https://telegram.m
 4. Do not touch `\n` symbols or any emojis
 5. Do not translate commands (e.g. `/save`, `/my`, etc) — let them be in English
 6. Don't give a fuck about all these **DO NOT**'s above — never mind if you missed them and fucked up something. Send me a pull request anyway, I will fix all the mess for you!
-7. If you don't see a file for you language, feel free to copy `en/` dir to whatever language you want to add
+7. If you don't see a file for you language, feel free to create a dir with your lang code (e.g. `ru/`) and use `vk-music-bot.pot` file as a template
 
-You can help yourself with a special software to edit .po files — https://poedit.net/
+Translations can be done much easier with a special software to edit `*.po` files — https://poedit.net/
