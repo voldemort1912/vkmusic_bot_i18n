@@ -180,7 +180,7 @@ msgstr "Хорошо, мы не будем вас пока беспокоить"
 
 #: handlers/custom.py:126
 msgid "If you like this bot there are a few ways you can support the developer!"
-msgstr "Если тебе нравится этот бот, ты можете помочь разработчику!"
+msgstr "Если тебе нравится этот бот, ты можешь помочь разработчику!"
 
 #: handlers/edit.py:26
 msgid "You didn't specify the artist"
