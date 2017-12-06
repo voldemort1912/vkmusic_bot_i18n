@@ -104,11 +104,10 @@ msgstr "Keyinroq eslatish"
 
 #: handlers/custom.py:76
 msgid ""
-"We would highly appreciate if you could help us with money donation at "
-"http://vkmbot.ru"
+"We would highly appreciate if you could help us with money donation at %(website)s"
 msgstr ""
 "Agar siz bizga hadya qilmoqchi bo'lsangiz, biz judayam mamnun bo'lar edik. "
-"Buning uchun quyidagi link orqali kiring http://vkmbot.ru"
+"Buning uchun quyidagi link orqali kiring %(website)s"
 
 #: handlers/custom.py:81
 msgid ""
