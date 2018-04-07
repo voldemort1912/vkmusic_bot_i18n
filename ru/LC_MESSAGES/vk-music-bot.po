@@ -160,11 +160,10 @@ msgstr "Напомнить позже"
 
 #: handlers/custom.py:111
 msgid ""
-"We would highly appreciate if you could help us with money donation at http://"
-"vkmbot.ru"
+"We would highly appreciate if you could help us with money donation at %(website)s"
 msgstr ""
 "Мы будем очень признательны, если ты поможешь проекту деньгами. Сделать это можно "
-"здесь http://vkmbot.ru"
+"здесь %(website)s"
 
 #: handlers/custom.py:115
 msgid ""
