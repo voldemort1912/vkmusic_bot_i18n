@@ -46,7 +46,7 @@ msgstr ""
 "‏/song —.جستجو با نام آهنگ\n"
 "‏/artist — جستجو با نام خواننده\n"
 "‏/setlang — انتخاب زبان\n"
-"‏/settings — تعقیر تنظیمات"
+"‏/settings — تغییر تنظیمات"
 
 #: handlers/custom.py:28
 msgid "This command can not be used in a group chat, send it as a private message"
@@ -70,7 +70,7 @@ msgstr ""
 "‏/lyrics /text /l — متن ترانه اخرین آهنگ دانلودی\n"
 "‏\n"
 "🌎 زبان\n"
-"‏/setlang — تعقیر زبان\n"
+"‏/setlang — تغییر زبان\n"
 "‏\n"
 "⏬ دانلود همه\n"
 "‏/getall — دانلود همه ترانه های یافت شده\n"
@@ -111,12 +111,12 @@ msgstr ""
 
 #: handlers/custom.py:86
 msgid "Ok, we won't bother you for a while"
-msgstr "خب ، برای مدتی شما را نمی آزاریم"
+msgstr "خب ، برای مدتی مزاحم شما نمی شویم"
 
 #: handlers/custom.py:91
 msgid "If you like this bot there are a few ways you can support the developer!"
 msgstr ""
-"اگر از این ربات خوشتان آمده است ، راهای اندکی برای حمایت از توسعه دهنده وجود "
+"اگر از این ربات خوشتان آمده است ، راه هایی برای حمایت از توسعه دهنده وجود "
 "دارد!"
 
 #: handlers/i18n.py:115
@@ -164,7 +164,7 @@ msgstr "خارج کردن از VK (id %s)"
 
 #: handlers/settings.py:59
 msgid "What would you like to change?"
-msgstr "مایل به تعقیر چه چیزی هستید ؟"
+msgstr "مایل به تغییر چه چیزی هستید ؟"
 
 #: handlers/vk.py:118 handlers/vk.py:128 handlers/vk.py:131 handlers/vk.py:695
 msgid "Oops, something went wrong. Please try again later."

@@ -80,8 +80,8 @@ msgid "Remind later"
 msgstr "Recordar más tarde"
 
 #: handlers/custom.py:76
-msgid "We would highly appreciate if you could help us with money donation at http://vkmbot.ru"
-msgstr "Agradeceríamos si nos pudieras ayudar con una donación de dinero en http://vkmbot.ru"
+msgid "We would highly appreciate if you could help us with money donation at %(website)s"
+msgstr "Agradeceríamos si nos pudieras ayudar con una donación de dinero en %(website)s"
 
 #: handlers/custom.py:81
 msgid "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?start=vkmusic_bot"

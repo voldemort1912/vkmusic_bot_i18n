@@ -6,201 +6,242 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-08 15:14+0300\n"
+"POT-Creation-Date: 2018-06-26 19:55-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: search.py:64 handlers/vk.py:177
-msgid "I found nothing"
+#: bot.py:57
+msgid "Added to your playlist (/my)"
 msgstr ""
 
-#: web.py:50
-msgid ""
-"Thanks! Now you can use personalized commands.\n"
-"For example, use /my to access your VK audio"
+#: bot.py:60
+msgid "Removed from your playlist"
 msgstr ""
 
-#: handlers/audio.py:20
-msgid ""
-"What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+#: bot.py:254
+msgid "Empty file size, skipping"
 msgstr ""
 
-#: handlers/audio.py:22
-msgid ""
-"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+#: bot.py:260
+#, python-format
+msgid "We don't support '%(mime_type)s' audio yet"
 msgstr ""
 
-#: handlers/custom.py:16 handlers/vk.py:379
-msgid "intro_msg"
+#: bot.py:267
+msgid "We require artist and title tags to be set"
 msgstr ""
 
-#: handlers/custom.py:28
+#: bot.py:272
+#, python-format
+msgid "Audio must be at least %(seconds)d seconds long"
+msgstr ""
+
+#: bot.py:279
+#, python-format
+msgid "Song bitrate must be in range from %(lowest)d to %(highest)d"
+msgstr ""
+
+#: bot.py:292
+msgid "We already have this song, but thank you anyway!"
+msgstr ""
+
+#: bot.py:301
+msgid "Got it! Note: it may take time for the song to appear in the search"
+msgstr ""
+
+#: handlers/audio.py:31
+msgid "What artist are you looking for?"
+msgstr ""
+
+#: handlers/audio.py:33
+msgid "What song are you looking for?"
+msgstr ""
+
+#: handlers/audio.py:73
+msgid "Oops, something went wrong. Please try again later."
+msgstr ""
+
+#: handlers/audio.py:205
+#, python-format
+msgid "Choose a song number from 1 to %d"
+msgstr ""
+
+#: handlers/audio.py:243
+msgid "Download something first!"
+msgstr ""
+
+#: handlers/custom.py:22
 msgid ""
 "This command can not be used in a group chat, send it as a private message"
 msgstr ""
 
-#: handlers/custom.py:48
-msgid "help_cmd_reply"
+#: handlers/custom.py:51
+msgid ""
+"Hi! Just send me an artist and/or a song name and I will find music for "
+"you!\n"
+"/song — search by song title\n"
+"/artist — search for artist name\n"
+"/setlang — change language\n"
+"/settings — change settings\n"
 msgstr ""
 
-#: handlers/custom.py:62
+#: handlers/custom.py:68
+#, python-format
+msgid ""
+"🔥 Commands\n"
+"Just send me an artist and/or a song name and I will find music for you!\n"
+"/song — search by song title (useful for group chats)\n"
+"/artist — search for artist name\n"
+"/getall — download all songs from search results\n"
+"/my — list your playlist\n"
+"/settings — change settings\n"
+"\n"
+"⭐️ If you like this bot, please rate it 5 stars in the bot-store: https://"
+"telegram.me/storebot?start=vkmusic_bot\n"
+"\n"
+"Official news channel: %(channel)s\n"
+"Contact information: %(contact)s\n"
+"\n"
+"Support and donations: %(website)s\n"
+"BTC: `%(btc)s`\n"
+msgstr ""
+
+#: handlers/custom.py:102 handlers/custom.py:159
+#, python-format
+msgid ""
+"We would highly appreciate if you could help us with money donation at "
+"%(website)s"
+msgstr ""
+
+#: handlers/custom.py:106 handlers/custom.py:146
 msgid "Donate"
 msgstr ""
 
-#: handlers/custom.py:63
-msgid "Leave a positive feedback"
-msgstr ""
-
-#: handlers/custom.py:64
+#: handlers/custom.py:107 handlers/custom.py:148
 msgid "Remind later"
 msgstr ""
 
-#: handlers/custom.py:76
-msgid ""
-"We would highly appreciate if you could help us with money donation at "
-"http://vkmbot.ru"
+#: handlers/custom.py:133 handlers/custom.py:169
+msgid "Ok, we won't bother you for a while"
 msgstr ""
 
-#: handlers/custom.py:81
+#: handlers/custom.py:147
+msgid "Leave a positive feedback"
+msgstr ""
+
+#: handlers/custom.py:164
 msgid ""
 "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?"
 "start=vkmusic_bot"
 msgstr ""
 
-#: handlers/custom.py:86
-msgid "Ok, we won't bother you for a while"
-msgstr ""
-
-#: handlers/custom.py:91
+#: handlers/custom.py:175
 msgid ""
 "If you like this bot there are a few ways you can support the developer!"
+msgstr ""
+
+#: handlers/edit.py:26
+msgid "You didn't specify the artist"
+msgstr ""
+
+#: handlers/edit.py:33
+msgid "Please reply to an audio message"
+msgstr ""
+
+#: handlers/edit.py:41
+#, python-format
+msgid ""
+"You suggested edit for artist: \"%(new_artist)s\"\n"
+"We will review your suggestion and store it in our database. Thank you!"
 msgstr ""
 
 #: handlers/i18n.py:115
 msgid "Language settings updated"
 msgstr ""
 
-#: handlers/i18n.py:138
+#: handlers/i18n.py:139
 msgid "To select new language, use the following commands"
 msgstr ""
 
-#: handlers/i18n.py:149
+#: handlers/i18n.py:150
 msgid "Please, select new language"
 msgstr ""
 
-#: handlers/settings.py:22
-msgid "Language"
+#: handlers/inline.py:33 handlers/inline.py:76 handlers/inline.py:122
+#: search.py:200
+msgid "You need to search for something before"
+msgstr ""
+
+#: handlers/inline.py:51 handlers/inline.py:96 search.py:52
+msgid "I found nothing"
+msgstr ""
+
+#: handlers/inline.py:79
+msgid "You're at the first page already"
+msgstr ""
+
+#: handlers/mixins.py:65
+#, python-format
+msgid "Results %(first)d-%(last)d of %(total)d\n"
+msgstr ""
+
+#: handlers/mixins.py:80
+msgid "I like this bot!"
+msgstr ""
+
+#: handlers/playlist.py:82
+msgid ""
+"Your playlist is empty. Upload MP3 audios or use /add to add songs from "
+"search to it"
 msgstr ""
 
 #: handlers/settings.py:23
-#, python-format
-msgid "Lyrics icon: %s"
+msgid "Language"
 msgstr ""
 
-#: handlers/settings.py:24 handlers/settings.py:27
-msgid "Enabled"
-msgstr ""
-
-#: handlers/settings.py:24 handlers/settings.py:27
-msgid "Disabled"
-msgstr ""
-
-#: handlers/settings.py:26
+#: handlers/settings.py:24
 #, python-format
 msgid "Bitrate preview: %s"
 msgstr ""
 
-#: handlers/settings.py:29
+#: handlers/settings.py:25 handlers/settings.py:28 handlers/settings.py:31
+#: handlers/settings.py:34
+msgid "Enabled"
+msgstr ""
+
+#: handlers/settings.py:25 handlers/settings.py:28 handlers/settings.py:31
+#: handlers/settings.py:34
+msgid "Disabled"
+msgstr ""
+
+#: handlers/settings.py:27
+#, python-format
+msgid "Like (heart) buttons: %s"
+msgstr ""
+
+#: handlers/settings.py:30
+#, python-format
+msgid "Caption under audios: %s"
+msgstr ""
+
+#: handlers/settings.py:33
+#, python-format
+msgid "Results with buttons: %s"
+msgstr ""
+
+#: handlers/settings.py:36
 msgid "Cancel"
 msgstr ""
 
-#: handlers/settings.py:38
-#, python-format
-msgid "Unlink VK (id %s)"
-msgstr ""
-
-#: handlers/settings.py:59
+#: handlers/settings.py:68
 msgid "What would you like to change?"
-msgstr ""
-
-#: handlers/vk.py:118 handlers/vk.py:128 handlers/vk.py:131 handlers/vk.py:695
-msgid "Oops, something went wrong. Please try again later."
-msgstr ""
-
-#: handlers/vk.py:138
-msgid "unknown_user_in_chat_msg"
-msgstr ""
-
-#: handlers/vk.py:142
-#, python-format
-msgid ""
-"To access all features you need to authorize me in your VK, follow [the link]"
-"(%s) to do it"
-msgstr ""
-
-#: handlers/vk.py:284
-msgid "Wall"
-msgstr ""
-
-#: handlers/vk.py:285
-msgid "Audio"
-msgstr ""
-
-#: handlers/vk.py:286
-msgid "Albums"
-msgstr ""
-
-#: handlers/vk.py:348
-msgid "I like this bot!"
-msgstr ""
-
-#: handlers/vk.py:367
-msgid "To access this feature you need to authorize me in VK"
-msgstr ""
-
-#: handlers/vk.py:466
-#, python-format
-msgid ""
-"Oops! You need to give me access to your friends. Please, authorize me again "
-"via [this link](%s)"
-msgstr ""
-
-#: handlers/vk.py:482
-msgid "You need to search for something before"
-msgstr ""
-
-#: handlers/vk.py:597
-msgid "Error"
-msgstr ""
-
-#: handlers/vk.py:599
-msgid "Song is too big"
-msgstr ""
-
-#: handlers/vk.py:600
-msgid "Download"
-msgstr ""
-
-#: handlers/vk.py:675 handlers/vk.py:847
-#, python-format
-msgid "Choose a song number from 1 to %d"
-msgstr ""
-
-#: handlers/vk.py:692
-msgid "Song is removed by copyright owners"
-msgstr ""
-
-#: handlers/vk.py:734
-msgid "Download something before!"
-msgstr ""
-
-#: handlers/vk.py:823
-msgid "No lyrics found"
 msgstr ""
