@@ -1,5 +1,5 @@
 # Russian translations for PACKAGE package
-# Английские переводы для пакета PACKAGE.
+# Русские переводы для пакета PACKAGE.
 # Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Ilya Samartsev <ilya@ilyas-macbook-pro.local>, 2015.
