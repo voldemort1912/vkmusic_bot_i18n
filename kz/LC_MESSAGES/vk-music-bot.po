@@ -121,7 +121,6 @@ msgid ""
 "Official news channel: %(channel)s\n"
 "Contact information: %(contact)s\n"
 "\n"
-"Support and donations: %(website)s\n"
 "BTC: `%(btc)s`\n"
 msgstr ""
 "🔥 Командалар\n"
@@ -140,7 +139,6 @@ msgstr ""
 "Жаңалықтар жүктелетін ресми канал: %(channel)s\n"
 "Боттағы контакт пен жарнама: %(contact)s\n"
 "\n"
-"Жобаны мына жерде қолдауға болады: %(website)s\n"
 "BTC: `%(btc)s`\n"
 
 #: handlers/custom.py:98
@@ -154,13 +152,6 @@ msgstr "🌟 Жағымды пікір қалдыру"
 #: handlers/custom.py:100
 msgid "Remind later"
 msgstr "Кейінірек ескерту"
-
-#: handlers/custom.py:111
-msgid ""
-"We would highly appreciate if you could help us with money donation at %(website)s"
-msgstr ""
-"Егер сіз жобаға ақшалай көмектессеңіз, біз өте риза боламыз. Оны мына жерде "
-"жасауға болады %(website)s"
 
 #: handlers/custom.py:115
 msgid ""

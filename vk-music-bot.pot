@@ -111,15 +111,7 @@ msgid ""
 "Official news channel: %(channel)s\n"
 "Contact information: %(contact)s\n"
 "\n"
-"Support and donations: %(website)s\n"
 "BTC: `%(btc)s`\n"
-msgstr ""
-
-#: handlers/custom.py:102 handlers/custom.py:159
-#, python-format
-msgid ""
-"We would highly appreciate if you could help us with money donation at "
-"%(website)s"
 msgstr ""
 
 #: handlers/custom.py:106 handlers/custom.py:146

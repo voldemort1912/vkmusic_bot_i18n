@@ -80,8 +80,6 @@ msgstr ""
 "‏\n"
 "کانال رسمی اخبار ربات: @vkmusic_bot_news\n"
 "تماس با سازنده: @vkmowner\n"
-"‏\n"
-"پشتیبانی و حمایت : http://vkmbot.ru"
 
 #: handlers/custom.py:62
 msgid "Donate"
@@ -94,13 +92,6 @@ msgstr "🌟 نظر سازنده خود را ارسال کنید"
 #: handlers/custom.py:64
 msgid "Remind later"
 msgstr "بعدا یادآور شو"
-
-#: handlers/custom.py:76
-msgid ""
-"We would highly appreciate if you could help us with money donation at http://"
-"vkmbot.ru"
-msgstr ""
-"با تمام وجود قدردان شما خواهیم بود اگر یه ما کمک مالی کنید : http://vkmbot.ru"
 
 #: handlers/custom.py:81
 msgid ""

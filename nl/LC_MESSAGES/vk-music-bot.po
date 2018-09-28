@@ -85,8 +85,6 @@ msgstr ""
 "\n"
 "Officieel nieuwskanaal: @vkmusic_bot_news\n"
 "Contactinformatie: @vkmowner\n"
-"\n"
-"Ondersteuning en donaties: http://vkmbot.ru/"
 
 #: handlers/custom.py:62
 msgid "Donate"
@@ -98,12 +96,6 @@ msgstr ""
 
 #: handlers/custom.py:64
 msgid "Remind later"
-msgstr ""
-
-#: handlers/custom.py:76
-msgid ""
-"We would highly appreciate if you could help us with money donation at "
-"http://vkmbot.ru"
 msgstr ""
 
 #: handlers/custom.py:81
