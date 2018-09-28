@@ -79,7 +79,7 @@ msgstr ""
 "telegram.me/storebot?start=vkmusic_bot\n"
 "‏\n"
 "کانال رسمی اخبار ربات: @vkmusic_bot_news\n"
-"تماس با سازنده: @igonzo\n"
+"تماس با سازنده: @vkmowner\n"
 "‏\n"
 "پشتیبانی و حمایت : http://vkmbot.ru"
 

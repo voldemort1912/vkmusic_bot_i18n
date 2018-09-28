@@ -1,6 +1,6 @@
 # Help @vkmusic_bot be international!
 Help to translate [@vkmusic_bot](https://telegram.me/vkmusic_bot) for Telegram!
-Do not hesitate to message me [@igonzo](https://telegram.me/igonzo) in Telegram if you have any troubles.
+Do not hesitate to message me [@vkmowner](https://telegram.me/vkmowner) in Telegram if you have any troubles.
 
 ## Translators
 Thanks to all these guys who helped us to make [@vkmusic_bot](https://telegram.me/vkmusic_bot) more friendly and international!

@@ -84,7 +84,7 @@ msgstr ""
 "Store: https://telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
 "Officieel nieuwskanaal: @vkmusic_bot_news\n"
-"Contactinformatie: @igonzo\n"
+"Contactinformatie: @vkmowner\n"
 "\n"
 "Ondersteuning en donaties: http://vkmbot.ru/"
 

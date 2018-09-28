@@ -62,7 +62,7 @@ msgstr ""
 "start=vkmusic_bot\n"
 "\n"
 "Offizieller Kanal für Neuigkeiten: @vkmusic_bot_news\n"
-"Kontaktinformationen: @igonzo\n"
+"Kontaktinformationen: @vkmowner\n"
 "\n"
 "Unterstützung und Spenden: http://vkmbot.ru/"
 

@@ -86,7 +86,7 @@ msgstr ""
 "https://telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
 "Rasmiy yangiliklar kanali: @vkmusic_bot_news\n"
-"Aloqa: @igonzo\n"
+"Aloqa: @vkmowner\n"
 "\n"
 "Yordam va hadya: http://vkmbot.ru/"
 
