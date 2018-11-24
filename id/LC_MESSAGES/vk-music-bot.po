@@ -252,7 +252,7 @@ msgstr "Matikan"
 #: handlers/settings.py:27
 #, python-format
 msgid "Like (heart) buttons: %s"
-msgstr "Suka tombol (heart): %s"
+msgstr "Tombol suka (hati): %s"
 
 #: handlers/settings.py:30
 #, python-format
