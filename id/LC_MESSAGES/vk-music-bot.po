@@ -242,12 +242,12 @@ msgstr "Pratinjau bitrate: %s"
 #: handlers/settings.py:25 handlers/settings.py:28 handlers/settings.py:31
 #: handlers/settings.py:34
 msgid "Enabled"
-msgstr "Aktifkan"
+msgstr "Diaktifkan"
 
 #: handlers/settings.py:25 handlers/settings.py:28 handlers/settings.py:31
 #: handlers/settings.py:34
 msgid "Disabled"
-msgstr "Matikan"
+msgstr "Dimatikan"
 
 #: handlers/settings.py:27
 #, python-format
