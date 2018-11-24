@@ -83,9 +83,7 @@ msgstr ""
 "https://telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
 "Canale ufficiale per le notizie: @vkmusic_bot_news\n"
-"Informazioni di contatto: @igonzo\n"
-"\n"
-"Donazione e supporto: http://vkmbot.ru/"
+"Informazioni di contatto: @vkmowner\n"
 
 #: handlers/custom.py:62
 msgid "Donate"
@@ -97,12 +95,6 @@ msgstr ""
 
 #: handlers/custom.py:64
 msgid "Remind later"
-msgstr ""
-
-#: handlers/custom.py:76
-msgid ""
-"We would highly appreciate if you could help us with money donation at http://"
-"vkmbot.ru"
 msgstr ""
 
 #: handlers/custom.py:81

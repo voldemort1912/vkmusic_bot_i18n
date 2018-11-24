@@ -86,9 +86,7 @@ msgstr ""
 "https://telegram.me/storebot?start=vkmusic_bot\n"
 "\n"
 "Rasmiy yangiliklar kanali: @vkmusic_bot_news\n"
-"Aloqa: @igonzo\n"
-"\n"
-"Yordam va hadya: http://vkmbot.ru/"
+"Aloqa: @vkmowner\n"
 
 #: handlers/custom.py:62
 msgid "Donate"
@@ -101,14 +99,6 @@ msgstr "🌟 Ijobiy fikr qoldiring "
 #: handlers/custom.py:64
 msgid "Remind later"
 msgstr "Keyinroq eslatish"
-
-#: handlers/custom.py:76
-msgid ""
-"We would highly appreciate if you could help us with money donation at "
-"http://vkmbot.ru"
-msgstr ""
-"Agar siz bizga hadya qilmoqchi bo'lsangiz, biz judayam mamnun bo'lar edik. "
-"Buning uchun quyidagi link orqali kiring http://vkmbot.ru"
 
 #: handlers/custom.py:81
 msgid ""

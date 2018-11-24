@@ -44,9 +44,9 @@ msgid "intro_msg"
 msgstr ""
 "سلام ! نام خواننده و/یا اهنگ را به من بدهید تا ترانه را برای شما پیدا کنم!\n"
 "‏/song —.جستجو با نام آهنگ\n"
-"‏/artist — جستجو با نام خواننده\n"
-"‏/setlang — انتخاب زبان\n"
-"‏/settings — تغییر تنظیمات"
+"‏/artist — جستجو با نام خواننده\n"
+"‏/setlang — انتخاب زبان\n"
+"‏/settings — تغییر تنظیمات"
 
 #: handlers/custom.py:28
 msgid "This command can not be used in a group chat, send it as a private message"
@@ -70,7 +70,7 @@ msgstr ""
 "‏/lyrics /text /l — متن ترانه اخرین آهنگ دانلودی\n"
 "‏\n"
 "🌎 زبان\n"
-"‏/setlang — تغییر زبان\n"
+"‏/setlang — تغییر زبان\n"
 "‏\n"
 "⏬ دانلود همه\n"
 "‏/getall — دانلود همه ترانه های یافت شده\n"
@@ -79,9 +79,7 @@ msgstr ""
 "telegram.me/storebot?start=vkmusic_bot\n"
 "‏\n"
 "کانال رسمی اخبار ربات: @vkmusic_bot_news\n"
-"تماس با سازنده: @igonzo\n"
-"‏\n"
-"پشتیبانی و حمایت : http://vkmbot.ru"
+"تماس با سازنده: @vkmowner\n"
 
 #: handlers/custom.py:62
 msgid "Donate"
@@ -95,13 +93,6 @@ msgstr "🌟 نظر سازنده خود را ارسال کنید"
 msgid "Remind later"
 msgstr "بعدا یادآور شو"
 
-#: handlers/custom.py:76
-msgid ""
-"We would highly appreciate if you could help us with money donation at http://"
-"vkmbot.ru"
-msgstr ""
-"با تمام وجود قدردان شما خواهیم بود اگر یه ما کمک مالی کنید : http://vkmbot.ru"
-
 #: handlers/custom.py:81
 msgid ""
 "Please rate us 5 stars in the bot-store: https://telegram.me/storebot?"
@@ -111,12 +102,12 @@ msgstr ""
 
 #: handlers/custom.py:86
 msgid "Ok, we won't bother you for a while"
-msgstr "خب ، برای مدتی شما را نمی آزاریم"
+msgstr "خب ، برای مدتی مزاحم شما نمی شویم"
 
 #: handlers/custom.py:91
 msgid "If you like this bot there are a few ways you can support the developer!"
 msgstr ""
-"اگر از این ربات خوشتان آمده است ، راهای اندکی برای حمایت از توسعه دهنده وجود "
+"اگر از این ربات خوشتان آمده است ، راه هایی برای حمایت از توسعه دهنده وجود "
 "دارد!"
 
 #: handlers/i18n.py:115
