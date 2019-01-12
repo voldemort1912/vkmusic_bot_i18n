@@ -1,0 +1,274 @@
+# Romanian translations for PACKAGE package.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Victor Mihalache, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-02 22:10+0200\n"
+"PO-Revision-Date: 2019-01-02 023:14+0200\n"
+"Last-Translator: Victor Mihalache\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.8\n"
+
+#: bot.py:57
+msgid "Added to your playlist (/my)"
+msgstr "Adaugat la playlistul tău (/my)"
+
+#: bot.py:60
+msgid "Removed from your playlist"
+msgstr "Scos de pe playlistul tău"
+
+#: bot.py:254
+msgid "Empty file size, skipping"
+msgstr "Fişier gol, sărind peste"
+
+#: bot.py:260
+#, python-format
+msgid "We don't support '%(mime_type)s' audio yet"
+msgstr "Încă nu suportăm muzică '%(mime_type)s'"
+
+#: bot.py:267
+msgid "We require artist and title tags to be set"
+msgstr "Avem nevoie ca eticheta titului și a artistului să fiu setate"
+
+#: bot.py:272
+#, python-format
+msgid "Audio must be at least %(seconds)d seconds long"
+msgstr "Înregistrarea trebuie să fie lungă măcar %(seconds)d secunde"
+
+#: bot.py:279
+#, python-format
+msgid "Song bitrate must be in range from %(lowest)d to %(highest)d"
+msgstr ""
+"Bitreitul înregistrări trebuie să fie printre %(lowest)d și %(highest)d"
+
+#: bot.py:292
+msgid "We already have this song, but thank you anyway!"
+msgstr "Avem deja această melodie, dar te mulţumim la fel!"
+
+#: bot.py:301
+msgid "Got it! Note: it may take time for the song to appear in the search"
+msgstr ""
+"Primit! Ține minte: poate o să fie nevoie de ceva timp pentru ca muzica "
+"să apară printre rezultate"
+
+#: handlers/audio.py:31
+msgid "What artist are you looking for?"
+msgstr "Ce artist cauţi?"
+
+#: handlers/audio.py:33
+msgid "What song are you looking for?"
+msgstr "Ce muzică cauţi?"
+
+#: handlers/audio.py:73
+msgid "Oops, something went wrong. Please try again later."
+msgstr "Oops, ceva nu a mers bine. Încearcă mai terziu."
+
+#: handlers/audio.py:205
+#, python-format
+msgid "Choose a song number from 1 to %d"
+msgstr "Alege numărul unui melodi printre 1 și %d"
+
+#: handlers/audio.py:243
+msgid "Download something first!"
+msgstr "Descarcă ceva mai întâi!"
+
+#: handlers/custom.py:22
+msgid ""
+"This command can not be used in a group chat, send it as a private message"
+msgstr ""
+"Această comandă nu poate fi folosită într-o conversaţie de grup, trimitel "
+"ca un mesaj privat"
+
+#: handlers/custom.py:51
+msgid ""
+"Hi! Just send me an artist and/or a song name and I will find music for "
+"you!\n"
+"/song — search by song title\n"
+"/artist — search for artist name\n"
+"/setlang — change language\n"
+"/settings — change settings\n"
+msgstr ""
+"Bună! Doar scrie-mi numele unui artist sau unei melodii și o să îţi "
+"găsesc muzică pentru tine!\n"
+"/song — caută melodii prin titlu lor\n"
+"/artist — caută cu numele artistului\n"
+"/setlang — schimbă limba\n"
+"/settings — schimbă setările\n"
+
+#: handlers/custom.py:68
+#, python-format
+msgid ""
+"🔥 Commands\n"
+"Just send me an artist and/or a song name and I will find music for you!\n"
+"/song — search by song title (useful for group chats)\n"
+"/artist — search for artist name\n"
+"/getall — download all songs from search results\n"
+"/my — list your playlist\n"
+"/settings — change settings\n"
+"\n"
+"⭐️ If you like this bot, please rate it 5 stars in the bot-store: https://"
+"telegram.me/storebot?start=vkmusic_bot\n"
+"\n"
+"Official news channel: %(channel)s\n"
+"Contact information: %(contact)s\n"
+"\n"
+"BTC: `%(btc)s`\n"
+msgstr ""
+"🔥 Comenzi\n"
+"Doar scrie-mi numele unui artist sau unei melodii și o să iţi găsesc "
+"muzică pentru tine!\n"
+"/song — caută melodii prin titlu lor (util în convorbiri de grupă)\n"
+"/artist — caută cu numele artistului\n"
+"/getall — descarcă toate melodiile din rezultatele cautarii\n"
+"/my — vezi playlistul tău\n"
+"/settings — schimbă setările\n"
+"\n"
+"⭐️ Dacă îţi place acest robot, te rugăm să-i dai 5 stele pe magazinul de "
+"roboţi(bot-store): https://telegram.me/storebot?start=vkmusic_bot\n"
+"\n"
+"Canalul noutăţilor oficial: %(channel)s\n"
+"Informaţii de contactare: %(contact)s\n"
+"\n"
+"BTC: `%(btc)s`\n"
+
+#: handlers/custom.py:106 handlers/custom.py:146
+msgid "Donate"
+msgstr "Donează"
+
+#: handlers/custom.py:107 handlers/custom.py:148
+msgid "Remind later"
+msgstr "Amintește-mi mai Încolo"
+
+#: handlers/custom.py:133 handlers/custom.py:169
+msgid "Ok, we won't bother you for a while"
+msgstr "Ok, nu te mai vom deranja pentru ceva timp"
+
+#: handlers/custom.py:147
+msgid "Leave a positive feedback"
+msgstr "Lasă un feedback pozitiv"
+
+#: handlers/custom.py:164
+msgid ""
+"Please rate us 5 stars in the bot-store: https://telegram.me/storebot?"
+"start=vkmusic_bot"
+msgstr ""
+"Te rugăm să ne dai 5 stele pe magazinul de roboţi(bot-store): https://"
+"telegram.me/storebot?start=vkmusic_bot"
+
+#: handlers/custom.py:175
+msgid ""
+"If you like this bot there are a few ways you can support the developer!"
+msgstr ""
+"Dacă îţi place acest roboţel să știi ca sunt câteva feluri ca să ajuţi "
+"programatorul!"
+
+#: handlers/edit.py:26
+msgid "You didn't specify the artist"
+msgstr "Nu ai specificat artistul"
+
+#: handlers/edit.py:33
+msgid "Please reply to an audio message"
+msgstr "Te rugăm să răspunzi la un mesaj vocal"
+
+#: handlers/edit.py:41
+#, python-format
+msgid ""
+"You suggested edit for artist: \"%(new_artist)s\"\n"
+"We will review your suggestion and store it in our database. Thank you!"
+msgstr ""
+"Ai sfătuit niște schimbări pentru artistul: \"%(new_artist)s\"\n"
+"Vom reviziona sfatul tău și îl vom salva în baza noastră de date. "
+"Mulţumesc!"
+
+#: handlers/i18n.py:115
+msgid "Language settings updated"
+msgstr "Setările limbei au fost schimbate"
+
+#: handlers/i18n.py:139
+msgid "To select new language, use the following commands"
+msgstr "Ca să alegi o nouă limbă, folosește următoarile comenzi"
+
+#: handlers/i18n.py:150
+msgid "Please, select new language"
+msgstr "Alegeţi o nouă limbă, vă rog"
+
+#: handlers/inline.py:33 handlers/inline.py:76 handlers/inline.py:122
+#: search.py:200
+msgid "You need to search for something before"
+msgstr "Mai întâi trebuie să cauţi ceva"
+
+#: handlers/inline.py:51 handlers/inline.py:96 search.py:52
+msgid "I found nothing"
+msgstr "Nu am găsit nimic"
+
+#: handlers/inline.py:79
+msgid "You're at the first page already"
+msgstr "Ești deja pe prima pagină"
+
+#: handlers/mixins.py:65
+#, python-format
+msgid "Results %(first)d-%(last)d of %(total)d\n"
+msgstr "Rezultatele %(first)d-%(last)d din %(total)d\n"
+
+#: handlers/mixins.py:80
+msgid "I like this bot!"
+msgstr "Îmi place acest robot!"
+
+#: handlers/playlist.py:82
+msgid ""
+"Your playlist is empty. Upload MP3 audios or use /add to add songs from "
+"search to it"
+msgstr ""
+"Playlistul tău este gol. Încarca niște înregistrări MP3 sau folosește /"
+"add pentru a ia adauga căntece din căutările dmv."
+
+#: handlers/settings.py:23
+msgid "Language"
+msgstr "Limbă"
+
+#: handlers/settings.py:24
+#, python-format
+msgid "Bitrate preview: %s"
+msgstr "Previsualizarea biţi: %s"
+
+#: handlers/settings.py:25 handlers/settings.py:28 handlers/settings.py:31
+#: handlers/settings.py:34
+msgid "Enabled"
+msgstr "Activat"
+
+#: handlers/settings.py:25 handlers/settings.py:28 handlers/settings.py:31
+#: handlers/settings.py:34
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: handlers/settings.py:27
+#, python-format
+msgid "Like (heart) buttons: %s"
+msgstr "Butonul de like (inimioarele): %s"
+
+#: handlers/settings.py:30
+#, python-format
+msgid "Caption under audios: %s"
+msgstr "Legendă sub melodii: %s"
+
+#: handlers/settings.py:33
+#, python-format
+msgid "Results with buttons: %s"
+msgstr "Rezultatele cu butoane: %s"
+
+#: handlers/settings.py:36
+msgid "Cancel"
+msgstr "Șterge"
+
+#: handlers/settings.py:68
+msgid "What would you like to change?"
+msgstr "Ce îti ar place să schimbi?"
