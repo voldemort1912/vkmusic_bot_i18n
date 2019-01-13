@@ -57,23 +57,6 @@ msgid ""
 msgstr ""
 "This command can not be used in a group chat, send it as a private message"
 
-#: handlers/custom.py:48
-msgid "help_cmd_reply"
-msgstr ""
-"🔥 Commands\n"
-"Just send me an artist and/or a song name and I will find music for you!\n"
-"/song — search by song name (useful for group chats)\n"
-"/artist — search for artist name\n"
-"/getall — download all songs from search results\n"
-"/my — list your playlist\n"
-"/settings — change settings\n"
-"\n"
-"⭐️ If you like this bot, please rate it 5 stars in the bot-store: https://"
-"telegram.me/storebot?start=vkmusic_bot\n"
-"\n"
-"Official news channel: @vkmusic_bot_news\n"
-"Contact information: @vkmowner\n"
-
 #: handlers/custom.py:62
 msgid "Donate"
 msgstr "💸 Donate"
