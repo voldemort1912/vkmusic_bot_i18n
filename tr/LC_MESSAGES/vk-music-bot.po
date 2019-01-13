@@ -1,0 +1,221 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ilya Samartsev <ilya@ilyas-macbook-pro.local>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-08 15:43+0300\n"
+"PO-Revision-Date: 2019-01-13 12:31+0300\n"
+"Last-Translator: Ilya Samartsev <ilya@ilyas-macbook-pro.local>\n"
+"Language-Team: English\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+
+#: search.py:64 handlers/vk.py:177
+msgid "I found nothing"
+msgstr "Hiç bir şey bulamadım 😔"
+
+#: web.py:50
+msgid ""
+"Thanks! Now you can use personalized commands.\n"
+"For example, use /my to access your VK audio"
+msgstr ""
+"Teşekkürler! Artık kişiselleştirilmiş komutları kullanabilirsiniz.\n"
+"Örneğin,VK daki seslerinize erişmek için /my komutunu kullanın."
+
+#: handlers/audio.py:20
+msgid ""
+"What artist are you looking for? For example «Lera Lynn» or «Wiz Khalifa»"
+msgstr "Hangi sanatçıyı arıyorsun? Örneğin «Lera Lynn» veya «Wiz Khalifa»"
+
+#: handlers/audio.py:22
+msgid ""
+"What song are you looking for? For example «Get Lucky» or «Take Me To Church»"
+msgstr "Hangi şarkıyı arıyorsun? Örneğin «Yakamoz» ya da «Üryan Geldim»"
+
+#: handlers/custom.py:16 handlers/vk.py:379
+msgid "intro_msg"
+msgstr ""
+"Merhaba! Sadece bana bir sanatçı ve / veya bir şarkı adı gönderin, sizin için "
+"müzik bulacağım!\n"
+"/song — şarkı adından ara\n"
+"/artist — şarkıcı adından ara\n"
+"/setlang — dili değiştir\n"
+"/settings —ayarları değiştir"
+
+#: handlers/custom.py:28
+msgid ""
+"This command can not be used in a group chat, send it as a private message"
+msgstr ""
+"Bu komut bir Grup sohbetinde kullanılamaz, özel mesaj olarak gönderilebilir"
+
+#: handlers/custom.py:62
+msgid "Donate"
+msgstr "💸 Bağış Yap"
+
+#: handlers/custom.py:63
+msgid "Leave a positive feedback"
+msgstr "🌟 Olumlu bir geribildirim bırakın"
+
+#: handlers/custom.py:64
+msgid "Remind later"
+msgstr "⏰ Daha sonra hatırlat"
+
+#: handlers/custom.py:81
+msgid ""
+"Please rate us 5 stars in the bot-store: https://telegram.me/storebot?"
+"start=vkmusic_bot"
+msgstr ""
+"Lütfen bizi bot mağazasında uylayın ⭐️⭐️⭐️⭐️⭐️bot mağazası: https://telegram.me/"
+"storebot?start=vkmusic_bot"
+
+#: handlers/custom.py:86
+msgid "Ok, we won't bother you for a while"
+msgstr "Tamam, bir süre seni rahatsız etmeyeceğim"
+
+#: handlers/custom.py:91
+msgid "If you like this bot there are a few ways you can support the developer!"
+msgstr "Bu botu beğendiyseniz geliştiriciyi desteklemenin birkaç yolu var!"
+
+#: handlers/i18n.py:115
+msgid "Language settings updated"
+msgstr "Dil ayarları güncellendi"
+
+#: handlers/i18n.py:138
+msgid "To select new language, use the following commands"
+msgstr "Yeni bir dil seçmek için belirtilen komutu kullanın"
+
+#: handlers/i18n.py:149
+msgid "Please, select new language"
+msgstr "Lütfen yeni bir dil seçin."
+
+#: handlers/settings.py:22
+msgid "Language"
+msgstr "Dil"
+
+#: handlers/settings.py:23
+#, python-format
+msgid "Lyrics icon: %s"
+msgstr "Şarkı sözü ikonu: %s"
+
+#: handlers/settings.py:24 handlers/settings.py:27
+msgid "Enabled"
+msgstr "Aktif"
+
+#: handlers/settings.py:24 handlers/settings.py:27
+msgid "Disabled"
+msgstr "Kapalı"
+
+#: handlers/settings.py:26
+#, python-format
+msgid "Bitrate preview: %s"
+msgstr "Bit hızı önizlemesi: %s"
+
+#: handlers/settings.py:29
+msgid "Cancel"
+msgstr "İptal"
+
+#: handlers/settings.py:38
+#, python-format
+msgid "Unlink VK (id %s)"
+msgstr "VK bağlantısını kaldır (id %s)"
+
+#: handlers/settings.py:59
+msgid "What would you like to change?"
+msgstr "Neyi değiştirmek istersiniz?"
+
+#: handlers/vk.py:118 handlers/vk.py:128 handlers/vk.py:131 handlers/vk.py:695
+msgid "Oops, something went wrong. Please try again later."
+msgstr "Hmmm, bir şeyler ters gitti. Lütfen daha sonra tekrar deneyiniz."
+
+#: handlers/vk.py:138
+msgid "unknown_user_in_chat_msg"
+msgstr ""
+"Merhaba! Görünen o ki seninle daha önce tanışmadık.😳\n"
+"Bana bir özel mesajda  /start komutunu gönder sana ne yapacağın hakkındaki "
+"bilgi mesajını ileteyim."
+
+#: handlers/vk.py:142
+#, python-format
+msgid ""
+"To access all features you need to authorize me in your VK, follow [the link]"
+"(%s) to do it"
+msgstr ""
+"VK özelliklerinin tümüne erişmek istiyorsan [bu linki](%s) kullanarak "
+"yapabilirsin."
+
+#: handlers/vk.py:284
+msgid "Wall"
+msgstr "Akış"
+
+#: handlers/vk.py:285
+msgid "Audio"
+msgstr "Ses"
+
+#: handlers/vk.py:286
+msgid "Albums"
+msgstr "Albümler"
+
+#: handlers/vk.py:348
+msgid "I like this bot!"
+msgstr "Bu botu beğendim"
+
+#: handlers/vk.py:367
+msgid "To access this feature you need to authorize me in VK"
+msgstr "Bu özelliğe erişmek için beni VK'de yetkilendirmelisin."
+
+#: handlers/vk.py:466
+#, python-format
+msgid ""
+"Oops! You need to give me access to your friends. Please, authorize me again "
+"via [this link](%s)"
+msgstr ""
+"Hata! Bana arkadaşlarına erişim izni vermelisin.  [Bu linki](%s) kullanarak "
+"tekrar yetkilendirebilirsin."
+
+#: handlers/vk.py:482
+msgid "You need to search for something before"
+msgstr "Önce bir şey aramalısın 🐸"
+
+#: handlers/vk.py:597
+msgid "Error"
+msgstr "Hata"
+
+#: handlers/vk.py:599
+msgid "Song is too big"
+msgstr "Şarkı çok büyük 😔"
+
+#: handlers/vk.py:600
+msgid "Download"
+msgstr "İndir"
+
+#: handlers/vk.py:675 handlers/vk.py:847
+#, python-format
+msgid "Choose a song number from 1 to %d"
+msgstr "1 ile %d arasında bir şarkı numarası seçin"
+
+#: handlers/vk.py:692
+msgid "Song is removed by copyright owners"
+msgstr "⛔️ Şarkı, telif hakkı sahipleri tarafından kaldırıldı"
+
+#: handlers/vk.py:734
+msgid "Download something before!"
+msgstr "Önce bir şeyler indir!"
+
+#: handlers/vk.py:823
+msgid "No lyrics found"
+msgstr "Bu şarkı için şarkı sözleri bulunamadı 😔"
+
+#~ msgid ""
+#~ "Oops! Looks like your VK authorization is lost. Please, authorize me again "
+#~ "via the link %s"
+#~ msgstr ""
+#~ "Oops! Looks like your VK authorization is lost. Please, authorize me again "
+#~ "via the link %s"
